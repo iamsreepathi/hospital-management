@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script defer src="{% static 'js/lib/alpine.js' %}"></script>
+</head>
+<body class="flex min-h-screen p-4">
+    <header class="w-1/4 lg:w-2/12 mr-4">
+        <nav class="p-4 rounded justify-between bg-emerald-600 text-white min-h-95">
+            <div class="mb-4">
+                <a href="{% url 'home' %}" class="flex">
+                    <span class="mr-2">{% include 'components/icons/heart.html' %}</span>
+                    <span class="font-semibold uppercase">I-Hospital</span>
+                </a>
+            </div>
+            <div class="text-sm" x-data="sidebarState()">
+                <ul class="space-y-3">
+                    <li>
+                        <p class="flex items-center">
+                            <span class="mr-2">
+                                {% include 'components/icons/home.html' %}
+                            </span>
+                            <span>Dashboard</span>
+                        </p>
+                    </li>
+                    <li class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <p class="flex items-center">
+                                <span class="mr-2">
+                                    {% include 'components/icons/identification.html' %}
+                                </span>
+                                <span>Doctors</span>
+                            </p>
+                            <p @click="toggleDoctors()" class="hover:text-orange-200">
+                                {% include 'components/icons/chevron_down.html' %}                            
+                            </p>
+                        </div>
+                        <ul :class='toggle.doctors ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
+                            <li class="hover:text-orange-200"><a href="#">All Doctors</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Add Doctor</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Appointment</a></li>
+                        </ul>
+                    </li>
+                    <li class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <p class="flex items-center">
+                                <span class="mr-2">
+                                    {% include 'components/icons/identification.html' %}
+                                </span>
+                                <span>Patients</span>
+                            </p>
+                            <p @click="togglePatients()" class="hover:text-orange-200">
+                                {% include 'components/icons/chevron_down.html' %}                            
+                            </p>
+                        </div>
+                        <ul :class='toggle.patients ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
+                            <li class="hover:text-orange-200"><a href="#">Patient List</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Add Patient</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Patient Invoices</a></li>
+                        </ul>
+                    </li>
+                    <li class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <p class="flex items-center">
+                                <span class="mr-2">
+                                    {% include 'components/icons/identification.html' %}
+                                </span>
+                                <span>Nurses</span>
+                            </p>
+                            <p @click="toggleNurses()" class="hover:text-orange-200">
+                                {% include 'components/icons/chevron_down.html' %}                            
+                            </p>
+                        </div>
+                        <ul :class='toggle.nurses ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
+                            <li class="hover:text-orange-200"><a href="#">Nurse List</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Add Nurse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto flex-grow w-3/4 lg:w-10/12">
+        {% block content %}
+        {% endblock  %}
+    </main>
+    <script src="{% static 'js/global.js' %}"></script>
+    {% block script %}
+    {% endblock %}
+</body>
+</html>
