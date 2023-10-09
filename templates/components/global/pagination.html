@@ -1,0 +1,13 @@
+<div class="flex justify-end space-x-2">
+    {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}" class="border rounded px-4 py-2">&larr; previous</a>
+    {% else %}
+        <button class="border cursor-not-allowed rounded px-4 py-2 bg-gray-200 text-gray-500">&larr; previous</button>
+    {% endif %}
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}" class="border px-4 py-2 rounded">next &rarr;</a>
+    {% else %}
+        <button href="#" class="border cursor-not-allowed rounded px-4 py-2 bg-gray-200 text-gray-500">next &rarr; </button>
+    {% endif %}
+</div>

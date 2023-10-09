@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %} 
+<div class="space-y-4">
+    <table class="w-full text-sm text-left text-gray-500 relative overflow-x-auto rounded border">
+        {% include "components/global/table_head.html" with columns=columns %}
+        {% include "components/global/table_body.html" with columns=columns page_obj=page_obj route="doctors:detail" %}
+    </table>
+   {% include "components/global/pagination.html" with page_obj=page_obj %}
+</div>
+{% endblock %}

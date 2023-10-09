@@ -1,0 +1,17 @@
+{% load custom_tags %}
+
+<tbody>
+    {% for obj in page_obj%}
+    <tr class="bg-white border-b">
+        {% for col in columns %}
+        <td class="px-4 py-3">
+            {% if col.key != "action" %}
+            {{obj|get_attr:col.key}}
+            {% else %}
+            {% include "components/global/table_action.html" with obj=obj route=route %}
+            {% endif %}
+        </td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</tbody>

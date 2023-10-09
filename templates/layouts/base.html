@@ -41,7 +41,7 @@
                             </p>
                         </div>
                         <ul :class='toggle.doctors ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="#">All Doctors</a></li>
+                            <li class="hover:text-orange-200"><a href="{% url 'doctors:list' %}">All Doctors</a></li>
                             <li class="hover:text-orange-200"><a href="#">Add Doctor</a></li>
                             <li class="hover:text-orange-200"><a href="#">Appointment</a></li>
                         </ul>
@@ -59,7 +59,7 @@
                             </p>
                         </div>
                         <ul :class='toggle.patients ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="#">Patient List</a></li>
+                            <li class="hover:text-orange-200"><a href="{% url 'patients:list' %}">Patient List</a></li>
                             <li class="hover:text-orange-200"><a href="#">Add Patient</a></li>
                             <li class="hover:text-orange-200"><a href="#">Patient Invoices</a></li>
                         </ul>
@@ -77,7 +77,7 @@
                             </p>
                         </div>
                         <ul :class='toggle.nurses ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="#">Nurse List</a></li>
+                            <li class="hover:text-orange-200"><a href="{% url 'nurses:list' %}">Nurse List</a></li>
                             <li class="hover:text-orange-200"><a href="#">Add Nurse</a></li>
                         </ul>
                     </li>

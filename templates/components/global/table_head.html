@@ -1,0 +1,9 @@
+<thead class="text-xs text-gray-700 uppercase bg-gray-50">
+    <tr>
+        {% for col in columns %}
+        <th scope="col" class="px-4 py-3 text-emerald-600">
+            {{col.title}}
+        </th>
+        {% endfor %}
+    </tr>
+</thead>

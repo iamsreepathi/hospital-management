@@ -1,0 +1,402 @@
+[
+    {
+      "model": "nurses.nurse",
+      "pk": 1,
+      "fields": {
+        "first_name": "Kathie",
+        "last_name": "Buckner",
+        "contact_number": "(893) 507-2009",
+        "email": "kathiebuckner@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 2,
+      "fields": {
+        "first_name": "Sears",
+        "last_name": "Weiss",
+        "contact_number": "(844) 588-2925",
+        "email": "searsweiss@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 3,
+      "fields": {
+        "first_name": "Charlotte",
+        "last_name": "Pitts",
+        "contact_number": "(923) 463-2129",
+        "email": "charlottepitts@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 4,
+      "fields": {
+        "first_name": "Fay",
+        "last_name": "Hahn",
+        "contact_number": "(990) 430-2738",
+        "email": "fayhahn@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 5,
+      "fields": {
+        "first_name": "Bullock",
+        "last_name": "Goodwin",
+        "contact_number": "(910) 523-2235",
+        "email": "bullockgoodwin@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 6,
+      "fields": {
+        "first_name": "Jennings",
+        "last_name": "Foley",
+        "contact_number": "(813) 571-3565",
+        "email": "jenningsfoley@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 7,
+      "fields": {
+        "first_name": "Chavez",
+        "last_name": "Norris",
+        "contact_number": "(820) 489-2706",
+        "email": "chaveznorris@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 8,
+      "fields": {
+        "first_name": "Saunders",
+        "last_name": "Walters",
+        "contact_number": "(872) 455-3752",
+        "email": "saunderswalters@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 9,
+      "fields": {
+        "first_name": "Barry",
+        "last_name": "Higgins",
+        "contact_number": "(856) 549-2973",
+        "email": "barryhiggins@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 10,
+      "fields": {
+        "first_name": "Hendricks",
+        "last_name": "Banks",
+        "contact_number": "(963) 532-3887",
+        "email": "hendricksbanks@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 11,
+      "fields": {
+        "first_name": "Carmela",
+        "last_name": "Norton",
+        "contact_number": "(912) 404-3551",
+        "email": "carmelanorton@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 12,
+      "fields": {
+        "first_name": "Johanna",
+        "last_name": "Strickland",
+        "contact_number": "(973) 507-3720",
+        "email": "johannastrickland@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 13,
+      "fields": {
+        "first_name": "Estela",
+        "last_name": "Weber",
+        "contact_number": "(987) 575-3940",
+        "email": "estelaweber@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 14,
+      "fields": {
+        "first_name": "Hampton",
+        "last_name": "Barlow",
+        "contact_number": "(874) 549-2923",
+        "email": "hamptonbarlow@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 15,
+      "fields": {
+        "first_name": "Tasha",
+        "last_name": "Mcintyre",
+        "contact_number": "(988) 442-2091",
+        "email": "tashamcintyre@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 16,
+      "fields": {
+        "first_name": "Cleveland",
+        "last_name": "Wilkins",
+        "contact_number": "(861) 577-3818",
+        "email": "clevelandwilkins@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 17,
+      "fields": {
+        "first_name": "Finley",
+        "last_name": "Cohen",
+        "contact_number": "(936) 460-2111",
+        "email": "finleycohen@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 18,
+      "fields": {
+        "first_name": "Lesa",
+        "last_name": "Hoffman",
+        "contact_number": "(859) 434-2185",
+        "email": "lesahoffman@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 19,
+      "fields": {
+        "first_name": "Cecilia",
+        "last_name": "Blackburn",
+        "contact_number": "(967) 535-3234",
+        "email": "ceciliablackburn@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 20,
+      "fields": {
+        "first_name": "Kristine",
+        "last_name": "Conway",
+        "contact_number": "(955) 467-3393",
+        "email": "kristineconway@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 21,
+      "fields": {
+        "first_name": "Blankenship",
+        "last_name": "Boyd",
+        "contact_number": "(862) 490-2874",
+        "email": "blankenshipboyd@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 22,
+      "fields": {
+        "first_name": "Shaw",
+        "last_name": "James",
+        "contact_number": "(975) 533-2588",
+        "email": "shawjames@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 23,
+      "fields": {
+        "first_name": "Ferrell",
+        "last_name": "Ferrell",
+        "contact_number": "(835) 582-3150",
+        "email": "ferrellferrell@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 24,
+      "fields": {
+        "first_name": "Dodson",
+        "last_name": "Macdonald",
+        "contact_number": "(970) 478-3970",
+        "email": "dodsonmacdonald@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 25,
+      "fields": {
+        "first_name": "Rice",
+        "last_name": "Sanford",
+        "contact_number": "(802) 457-3304",
+        "email": "ricesanford@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 26,
+      "fields": {
+        "first_name": "Vaughn",
+        "last_name": "Mccall",
+        "contact_number": "(879) 401-2698",
+        "email": "vaughnmccall@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 27,
+      "fields": {
+        "first_name": "Selena",
+        "last_name": "Mercado",
+        "contact_number": "(992) 554-2703",
+        "email": "selenamercado@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 28,
+      "fields": {
+        "first_name": "Helga",
+        "last_name": "Duke",
+        "contact_number": "(999) 534-3573",
+        "email": "helgaduke@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 29,
+      "fields": {
+        "first_name": "Russo",
+        "last_name": "Barnes",
+        "contact_number": "(906) 498-2182",
+        "email": "russobarnes@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 30,
+      "fields": {
+        "first_name": "Aisha",
+        "last_name": "Bowers",
+        "contact_number": "(997) 547-3327",
+        "email": "aishabowers@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 31,
+      "fields": {
+        "first_name": "Knight",
+        "last_name": "Mathis",
+        "contact_number": "(814) 486-2336",
+        "email": "knightmathis@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 32,
+      "fields": {
+        "first_name": "Lang",
+        "last_name": "English",
+        "contact_number": "(898) 489-2712",
+        "email": "langenglish@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 33,
+      "fields": {
+        "first_name": "Vang",
+        "last_name": "Hess",
+        "contact_number": "(868) 549-2826",
+        "email": "vanghess@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 34,
+      "fields": {
+        "first_name": "Sexton",
+        "last_name": "Roberson",
+        "contact_number": "(911) 435-2979",
+        "email": "sextonroberson@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 35,
+      "fields": {
+        "first_name": "Raquel",
+        "last_name": "Gonzales",
+        "contact_number": "(893) 514-3518",
+        "email": "raquelgonzales@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 36,
+      "fields": {
+        "first_name": "Frederick",
+        "last_name": "Sykes",
+        "contact_number": "(889) 479-2899",
+        "email": "fredericksykes@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 37,
+      "fields": {
+        "first_name": "Diaz",
+        "last_name": "Tyson",
+        "contact_number": "(878) 449-2085",
+        "email": "diaztyson@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 38,
+      "fields": {
+        "first_name": "Julie",
+        "last_name": "Butler",
+        "contact_number": "(957) 546-3192",
+        "email": "juliebutler@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 39,
+      "fields": {
+        "first_name": "Barrett",
+        "last_name": "Holman",
+        "contact_number": "(874) 465-2228",
+        "email": "barrettholman@quilk.com"
+      }
+    },
+    {
+      "model": "nurses.nurse",
+      "pk": 40,
+      "fields": {
+        "first_name": "Leigh",
+        "last_name": "Walton",
+        "contact_number": "(918) 571-3888",
+        "email": "leighwalton@quilk.com"
+      }
+    }
+]

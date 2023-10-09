@@ -1,0 +1,482 @@
+[
+    {
+      "model": "doctors.doctor",
+      "pk": 1,
+      "fields": {
+        "first_name": "Eleanor",
+        "last_name": "Greene",
+        "contact_number": "(981) 429-3581",
+        "email": "eleanorgreene@medmex.com",
+        "address": "781 Dunne Place, Kansas, South Carolina, 471",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 2,
+      "fields": {
+        "first_name": "Norris",
+        "last_name": "Sandoval",
+        "contact_number": "(892) 488-3433",
+        "email": "norrissandoval@medmex.com",
+        "address": "979 Dover Street, Onton, Delaware, 9401",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 3,
+      "fields": {
+        "first_name": "Latonya",
+        "last_name": "Bond",
+        "contact_number": "(906) 461-2897",
+        "email": "latonyabond@medmex.com",
+        "address": "378 Coffey Street, Riegelwood, Palau, 3664",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 4,
+      "fields": {
+        "first_name": "Winifred",
+        "last_name": "Thomas",
+        "contact_number": "(988) 528-2316",
+        "email": "winifredthomas@medmex.com",
+        "address": "443 Farragut Road, Odessa, Colorado, 3838",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 5,
+      "fields": {
+        "first_name": "Shelia",
+        "last_name": "Mcdaniel",
+        "contact_number": "(965) 409-2419",
+        "email": "sheliamcdaniel@medmex.com",
+        "address": "986 Campus Road, Somerset, Arkansas, 704",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 6,
+      "fields": {
+        "first_name": "Espinoza",
+        "last_name": "Henry",
+        "contact_number": "(877) 540-3098",
+        "email": "espinozahenry@medmex.com",
+        "address": "953 Kaufman Place, Blackgum, Mississippi, 9125",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 7,
+      "fields": {
+        "first_name": "Mayer",
+        "last_name": "Flores",
+        "contact_number": "(893) 578-3181",
+        "email": "mayerflores@medmex.com",
+        "address": "859 Jerome Street, Loma, Texas, 5625",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 8,
+      "fields": {
+        "first_name": "Ashley",
+        "last_name": "Dominguez",
+        "contact_number": "(984) 597-3885",
+        "email": "ashleydominguez@medmex.com",
+        "address": "510 Judge Street, Marenisco, New Mexico, 5034",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 9,
+      "fields": {
+        "first_name": "Neal",
+        "last_name": "Stephens",
+        "contact_number": "(983) 438-3333",
+        "email": "nealstephens@medmex.com",
+        "address": "653 Wyona Street, Brandermill, New York, 8140",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 10,
+      "fields": {
+        "first_name": "Cantu",
+        "last_name": "Guy",
+        "contact_number": "(830) 516-2388",
+        "email": "cantuguy@medmex.com",
+        "address": "898 Overbaugh Place, Oasis, Louisiana, 6583",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 11,
+      "fields": {
+        "first_name": "Suzette",
+        "last_name": "Mcmillan",
+        "contact_number": "(939) 556-2606",
+        "email": "suzettemcmillan@medmex.com",
+        "address": "236 Lincoln Avenue, Cowiche, Virgin Islands, 3863",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 12,
+      "fields": {
+        "first_name": "Flynn",
+        "last_name": "Conner",
+        "contact_number": "(859) 580-3833",
+        "email": "flynnconner@medmex.com",
+        "address": "580 Fiske Place, Summertown, Wyoming, 2173",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 13,
+      "fields": {
+        "first_name": "Pennington",
+        "last_name": "Small",
+        "contact_number": "(915) 579-3847",
+        "email": "penningtonsmall@medmex.com",
+        "address": "934 Jefferson Street, Norvelt, Indiana, 7961",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 14,
+      "fields": {
+        "first_name": "Rosario",
+        "last_name": "Hughes",
+        "contact_number": "(976) 411-2136",
+        "email": "rosariohughes@medmex.com",
+        "address": "185 Liberty Avenue, Broadlands, Alabama, 628",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 15,
+      "fields": {
+        "first_name": "Corrine",
+        "last_name": "Meyer",
+        "contact_number": "(886) 492-3382",
+        "email": "corrinemeyer@medmex.com",
+        "address": "794 Railroad Avenue, Torboy, Maine, 5362",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 16,
+      "fields": {
+        "first_name": "Griffith",
+        "last_name": "Lott",
+        "contact_number": "(921) 440-2771",
+        "email": "griffithlott@medmex.com",
+        "address": "687 Caton Place, Emison, Vermont, 7320",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 17,
+      "fields": {
+        "first_name": "Stephenson",
+        "last_name": "Estrada",
+        "contact_number": "(979) 594-3419",
+        "email": "stephensonestrada@medmex.com",
+        "address": "985 Erskine Loop, Stockwell, Montana, 1503",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 18,
+      "fields": {
+        "first_name": "Jenny",
+        "last_name": "Lamb",
+        "contact_number": "(976) 454-3519",
+        "email": "jennylamb@medmex.com",
+        "address": "897 Montrose Avenue, Independence, Wisconsin, 8683",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 19,
+      "fields": {
+        "first_name": "Alyce",
+        "last_name": "Herman",
+        "contact_number": "(809) 491-2639",
+        "email": "alyceherman@medmex.com",
+        "address": "484 Bayview Avenue, Mammoth, Florida, 1675",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 20,
+      "fields": {
+        "first_name": "Sabrina",
+        "last_name": "Orr",
+        "contact_number": "(986) 580-2960",
+        "email": "sabrinaorr@medmex.com",
+        "address": "312 Coyle Street, Seymour, North Dakota, 4286",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 21,
+      "fields": {
+        "first_name": "Kim",
+        "last_name": "Mclean",
+        "contact_number": "(924) 463-3058",
+        "email": "kimmclean@medmex.com",
+        "address": "672 Lawrence Street, Sanford, Nevada, 6848",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 22,
+      "fields": {
+        "first_name": "Irene",
+        "last_name": "Montgomery",
+        "contact_number": "(840) 574-2570",
+        "email": "irenemontgomery@medmex.com",
+        "address": "256 College Place, Henrietta, Kansas, 3880",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 23,
+      "fields": {
+        "first_name": "Norton",
+        "last_name": "Ramos",
+        "contact_number": "(833) 498-3331",
+        "email": "nortonramos@medmex.com",
+        "address": "963 Ira Court, Roeville, Northern Mariana Islands, 630",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 24,
+      "fields": {
+        "first_name": "Barr",
+        "last_name": "Lynn",
+        "contact_number": "(826) 544-3207",
+        "email": "barrlynn@medmex.com",
+        "address": "512 Delmonico Place, Adamstown, Alaska, 6273",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 25,
+      "fields": {
+        "first_name": "Eddie",
+        "last_name": "Ferrell",
+        "contact_number": "(927) 407-3642",
+        "email": "eddieferrell@medmex.com",
+        "address": "809 Debevoise Avenue, Edmund, District Of Columbia, 8899",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 26,
+      "fields": {
+        "first_name": "Long",
+        "last_name": "Rush",
+        "contact_number": "(875) 483-2523",
+        "email": "longrush@medmex.com",
+        "address": "111 Boerum Place, Ripley, Iowa, 5209",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 27,
+      "fields": {
+        "first_name": "Gayle",
+        "last_name": "Acevedo",
+        "contact_number": "(884) 450-2119",
+        "email": "gayleacevedo@medmex.com",
+        "address": "896 Gates Avenue, Mayfair, Federated States Of Micronesia, 3179",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 28,
+      "fields": {
+        "first_name": "Noemi",
+        "last_name": "Haney",
+        "contact_number": "(959) 462-3780",
+        "email": "noemihaney@medmex.com",
+        "address": "338 Pilling Street, Woodlake, Kentucky, 436",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 29,
+      "fields": {
+        "first_name": "Maggie",
+        "last_name": "Gamble",
+        "contact_number": "(999) 579-2172",
+        "email": "maggiegamble@medmex.com",
+        "address": "480 Kensington Walk, Stevens, Illinois, 1381",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 30,
+      "fields": {
+        "first_name": "Amparo",
+        "last_name": "Shannon",
+        "contact_number": "(988) 535-3739",
+        "email": "amparoshannon@medmex.com",
+        "address": "256 Martense Street, Callaghan, Oklahoma, 6796",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 31,
+      "fields": {
+        "first_name": "Cardenas",
+        "last_name": "Carey",
+        "contact_number": "(944) 572-3170",
+        "email": "cardenascarey@medmex.com",
+        "address": "349 Erasmus Street, Avalon, Connecticut, 4547",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 32,
+      "fields": {
+        "first_name": "Mendoza",
+        "last_name": "Stone",
+        "contact_number": "(899) 567-3035",
+        "email": "mendozastone@medmex.com",
+        "address": "381 Kingston Avenue, Ona, Arizona, 8003",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 33,
+      "fields": {
+        "first_name": "Sophie",
+        "last_name": "Robertson",
+        "contact_number": "(814) 561-3970",
+        "email": "sophierobertson@medmex.com",
+        "address": "180 Morgan Avenue, Williamson, California, 2199",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 34,
+      "fields": {
+        "first_name": "Buckley",
+        "last_name": "Foreman",
+        "contact_number": "(838) 444-2751",
+        "email": "buckleyforeman@medmex.com",
+        "address": "527 Summit Street, Oneida, Ohio, 9532",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 35,
+      "fields": {
+        "first_name": "Kathleen",
+        "last_name": "Gardner",
+        "contact_number": "(956) 558-2368",
+        "email": "kathleengardner@medmex.com",
+        "address": "489 Bank Street, Taft, Virginia, 8442",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 36,
+      "fields": {
+        "first_name": "Jill",
+        "last_name": "Sampson",
+        "contact_number": "(893) 527-3440",
+        "email": "jillsampson@medmex.com",
+        "address": "110 Dwight Street, Hondah, Marshall Islands, 2675",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 37,
+      "fields": {
+        "first_name": "Jasmine",
+        "last_name": "Sharp",
+        "contact_number": "(873) 437-3340",
+        "email": "jasminesharp@medmex.com",
+        "address": "355 Bogart Street, Chelsea, Hawaii, 527",
+        "specialization": "Urology"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 38,
+      "fields": {
+        "first_name": "Hopper",
+        "last_name": "Richard",
+        "contact_number": "(851) 437-2182",
+        "email": "hopperrichard@medmex.com",
+        "address": "534 Stratford Road, Valle, Michigan, 5200",
+        "specialization": "Nuerolody"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 39,
+      "fields": {
+        "first_name": "Mitchell",
+        "last_name": "Kim",
+        "contact_number": "(982) 562-2150",
+        "email": "mitchellkim@medmex.com",
+        "address": "307 Decatur Street, Mulino, Missouri, 3833",
+        "specialization": "Pathalogy"
+      }
+    },
+    {
+      "model": "doctors.doctor",
+      "pk": 40,
+      "fields": {
+        "first_name": "Mathis",
+        "last_name": "Ferguson",
+        "contact_number": "(832) 554-3153",
+        "email": "mathisferguson@medmex.com",
+        "address": "481 Chestnut Avenue, Alafaya, Rhode Island, 300",
+        "specialization": "Pathalogy"
+      }
+    }
+  ]

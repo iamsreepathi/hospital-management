@@ -3,7 +3,7 @@ console.log('global.js loaded')
 function sidebarState() {
     return {
         toggle: {
-            doctors: false,
+            doctors: true,
             patients: false,
             nurses: false
         },
