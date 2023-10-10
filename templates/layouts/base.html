@@ -81,11 +81,49 @@
                             <li class="hover:text-orange-200"><a href="#">Add Nurse</a></li>
                         </ul>
                     </li>
+                    <li class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <p class="flex items-center">
+                                <span class="mr-2">
+                                    {% include 'components/icons/identification.html' %}
+                                </span>
+                                <span>Appointments</span>
+                            </p>
+                            <p @click="toggleAppointments()" class="hover:text-orange-200">
+                                {% include 'components/icons/chevron_down.html' %}                            
+                            </p>
+                        </div>
+                        <ul :class='toggle.appointments ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
+                            <li class="hover:text-orange-200"><a href="{% url 'appointments:list' %}">Appointment List</a></li>
+                            <li class="hover:text-orange-200"><a href="#">Add Appointment</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main class="container mx-auto flex-grow w-3/4 lg:w-10/12">
+    <main class="container mx-auto flex-grow w-3/4 lg:w-10/12 space-y-4">
+        <section class="flex justify-between items-center">
+            <div class="flex">
+                <input type="text" name="search" id="search" placeholder="Search" class="p-2 outline-none rounded-s border">
+                <button class="bg-gray-200 py-3 px-5 rounded-e border">
+                    {% include "components/icons/search.html" %}
+                </button>
+            </div>
+            <div class="flex space-x-2 items-center">
+                <div>
+                    <p class="font-semibold">John Doe</p>
+                    <p class="text-sm text-gray-400">Admin Profile</p>
+                </div>
+                <div>
+                    <button data-dropdown-toggle="dropdown" class="block h-12 w-12 rounded-full border-2 border-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
         {% block content %}
         {% endblock  %}
     </main>

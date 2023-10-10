@@ -10,6 +10,7 @@ class Doctor(models.Model):
     contact_number = models.CharField(max_length=15)
     email = models.EmailField(max_length=100)
     address = models.CharField(255)
+    about = models.TextField()
 
     class Meta:
         ordering = ["first_name"]

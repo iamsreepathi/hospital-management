@@ -5,19 +5,20 @@ function sidebarState() {
         toggle: {
             doctors: true,
             patients: false,
-            nurses: false
+            nurses: false,
+            appointments: false
         },
         toggleDoctors() {
-            console.log('toggling doctors')
             this.toggle.doctors = !this.toggle.doctors
         },
         togglePatients() {
-            console.log('toggling patients')
             this.toggle.patients = !this.toggle.patients
         },
         toggleNurses() {
-            console.log('toggling nurses')
             this.toggle.nurses = !this.toggle.nurses
+        },
+        toggleAppointments() {
+            this.toggle.appointments = !this.toggle.appointments
         },
     }
 }
