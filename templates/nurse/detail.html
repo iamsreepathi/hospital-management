@@ -1,8 +1,12 @@
 {% extends 'layouts/base.html' %}
 
 {% block content %} 
+<section class="flex items-start divide-x border shadow-sm p-4">
+    {% include "components/global/rating_card.html" with rated=rated unrated=unrated rating=rating route="nurses:rating" object=object %}
+    {% include "components/global/info.html" with object=object %}
+</section>
 <section class="space-y-4">
-    <p>Nurse detail view</p>
-    <p>{{object}}</p>
+    {% include "components/global/appointments_table.html" with page_obj=page_obj columns=columns %}
+    {% include "components/global/pagination.html" with page_obj=page_obj %}
 </section>
 {% endblock %}
