@@ -1,0 +1,11 @@
+{% load custom_tags %}
+
+<div class="flex items-center space-x-2">
+    {% for i in rated|times %}
+        {% include "components/icons/rated.html" %}
+    {% endfor %}
+    {% for i in unrated|times %}
+        {% include "components/icons/un_rated.html" %}
+    {% endfor %}
+    <p class="text-gray-500">{{rating}} out of 5</p>
+</div>

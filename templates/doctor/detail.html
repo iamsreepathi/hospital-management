@@ -1,9 +1,16 @@
 {% extends 'layouts/base.html' %}
+{% load custom_tags %}
 
 {% block content %} 
 <section class="flex items-center divide-x border shadow-sm p-4">
-    <div class="w-1/5 justify-center items-center mr-4">
+    <div class="w-1/5 justify-center items-center mr-4 space-y-2 text-gray-500 ">
         <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="Your avatar">
+        {% if rating %}
+            {% include "components/global/rating.html" with rated=rated unrated=unrated rating=rating %}
+        {% endif %}
+        <div class="text-center hover:text-orange-400 hover:cursor-pointer border rounded p-2">
+            <a href="{% url 'doctors:rating' object.id %}">More reviews</a>
+        </div>
     </div>
     <div class="w-4/5 pl-4 space-y-4">
         <div class="space-y-2">
@@ -49,6 +56,10 @@
                     {% include "components/global/table_action.html" with obj=obj route="appointments:detail" %}
                 </td>
             </tr>
+            {% empty %}
+                <tr>
+                    <td class="px-4 py-3">No appointments found.</td>
+                </tr>
             {% endfor %}
         </tbody>
     </table>

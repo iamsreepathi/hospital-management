@@ -1,4 +1,5 @@
 from django.db import models
+from patients.models import Patient
 
 # Create your models here.
 
@@ -14,3 +15,18 @@ class Doctor(models.Model):
 
     class Meta:
         ordering = ["first_name"]
+
+
+class DoctorReview(models.Model):
+    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
+    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)
+    rating = models.PositiveSmallIntegerField()
+    text = models.TextField()
+    date = models.DateField(auto_now=True)
+
+    @property
+    def unrated(self):
+        return 5 - self.rating
+
+    class Meta:
+        ordering = ["rating"]

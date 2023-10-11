@@ -21,81 +21,81 @@
             <div class="text-sm" x-data="sidebarState()">
                 <ul class="space-y-3">
                     <li>
-                        <p class="flex items-center">
+                        <a href="{% url 'home' %}" class="flex items-center hover:text-orange-300">
                             <span class="mr-2">
                                 {% include 'components/icons/home.html' %}
                             </span>
                             <span>Dashboard</span>
-                        </p>
+                        </a>
                     </li>
                     <li class="space-y-2">
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center hover:text-orange-300 hover:cursor-pointer" @click="toggleDoctors()">
                             <p class="flex items-center">
                                 <span class="mr-2">
                                     {% include 'components/icons/identification.html' %}
                                 </span>
                                 <span>Doctors</span>
                             </p>
-                            <p @click="toggleDoctors()" class="hover:text-orange-200">
+                            <p>
                                 {% include 'components/icons/chevron_down.html' %}                            
                             </p>
                         </div>
                         <ul :class='toggle.doctors ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="{% url 'doctors:list' %}">All Doctors</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Add Doctor</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Appointment</a></li>
+                            <li class="hover:text-orange-300"><a href="{% url 'doctors:list' %}">All Doctors</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Add Doctor</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Appointment</a></li>
                         </ul>
                     </li>
                     <li class="space-y-2">
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center hover:text-orange-300 hover:cursor-pointer" @click="togglePatients()" >
                             <p class="flex items-center">
                                 <span class="mr-2">
                                     {% include 'components/icons/identification.html' %}
                                 </span>
                                 <span>Patients</span>
                             </p>
-                            <p @click="togglePatients()" class="hover:text-orange-200">
+                            <p>
                                 {% include 'components/icons/chevron_down.html' %}                            
                             </p>
                         </div>
                         <ul :class='toggle.patients ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="{% url 'patients:list' %}">Patient List</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Add Patient</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Patient Invoices</a></li>
+                            <li class="hover:text-orange-300"><a href="{% url 'patients:list' %}">Patient List</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Add Patient</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Patient Invoices</a></li>
                         </ul>
                     </li>
                     <li class="space-y-2">
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center hover:text-orange-300 hover:cursor-pointer" @click="toggleNurses()">
                             <p class="flex items-center">
                                 <span class="mr-2">
                                     {% include 'components/icons/identification.html' %}
                                 </span>
                                 <span>Nurses</span>
                             </p>
-                            <p @click="toggleNurses()" class="hover:text-orange-200">
+                            <p>
                                 {% include 'components/icons/chevron_down.html' %}                            
                             </p>
                         </div>
                         <ul :class='toggle.nurses ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="{% url 'nurses:list' %}">Nurse List</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Add Nurse</a></li>
+                            <li class="hover:text-orange-300"><a href="{% url 'nurses:list' %}">Nurse List</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Add Nurse</a></li>
                         </ul>
                     </li>
                     <li class="space-y-2">
-                        <div class="flex justify-between items-center">
+                        <div class="flex justify-between items-center hover:text-orange-300 hover:cursor-pointer" @click="toggleAppointments()">
                             <p class="flex items-center">
                                 <span class="mr-2">
                                     {% include 'components/icons/identification.html' %}
                                 </span>
                                 <span>Appointments</span>
                             </p>
-                            <p @click="toggleAppointments()" class="hover:text-orange-200">
+                            <p>
                                 {% include 'components/icons/chevron_down.html' %}                            
                             </p>
                         </div>
                         <ul :class='toggle.appointments ? "space-y-2 ml-6" : "space-y-2 ml-5 hidden"'>
-                            <li class="hover:text-orange-200"><a href="{% url 'appointments:list' %}">Appointment List</a></li>
-                            <li class="hover:text-orange-200"><a href="#">Add Appointment</a></li>
+                            <li class="hover:text-orange-300"><a href="{% url 'appointments:list' %}">Appointment List</a></li>
+                            <li class="hover:text-orange-300"><a href="#">Add Appointment</a></li>
                         </ul>
                     </li>
                 </ul>

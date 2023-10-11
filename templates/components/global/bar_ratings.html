@@ -1,0 +1,11 @@
+<div>
+    {% for rating in ratings %}
+    <div class="flex items-center mt-4">
+        <a href="#" class="text-sm font-medium text-emerald-600 hover:underline">{{rating.rating}} star</a>
+        <div class="w-2/3 h-5 mx-4 bg-gray-100 rounded">
+            <div class="h-5 bg-yellow-300 rounded" style="width: {{rating.percentage}}%"></div>
+        </div>
+        <span class="text-sm font-medium text-gray-500 dark:text-gray-400">{{rating.percentage}}%</span>
+    </div>
+    {% endfor %}
+</div>
