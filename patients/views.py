@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, CreateView
 from .models import Patient
+from django.urls import reverse
+from .forms import CreatePatientForm
 
 
 # Create your views here.
@@ -27,3 +29,16 @@ class PatientListView(ListView):
 class PatientDetailView(DetailView):
     model = Patient
     template_name = "patient/detail.html"
+
+
+class PatientCreateView(CreateView):
+    template_name = "patient/create.html"
+    form_class = CreatePatientForm
+    model = Patient
+
+    def get_success_url(self) -> str:
+        return reverse("patients:list")
+
+    def form_valid(self, form):
+        form.save()
+        return super().form_valid(form)

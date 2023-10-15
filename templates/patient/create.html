@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %} 
+<div class="space-y-4">
+   {% include "components/global/secondary_heading.html" with title="Add a patient" %}
+   <hr>
+   <div class="border rounded p-4 space-y-2">
+    <h3 class="text-gray-800 font-semibold">Basic Information</h3>
+    {% include "components/global/form.html" with form=form id="patient_form" submit="Add Patient" %}
+</div>
+{% endblock %}

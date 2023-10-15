@@ -1,0 +1,32 @@
+<form method="post" class="space-y-2" id="{{id}}">
+    {% csrf_token %}
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-gray-500">
+        {% for field in form %}
+            {% if field.label == "Gender" %}
+            <div class="space-y-2">
+                <label for="{{ field.auto_id }}" class="font-semibold text-emerald-600 text-sm">{{ field.label }}</label>
+                <ul class="flex items-center">
+                    {% for radio in field %}
+                        <li class="w-1/2">
+                            {{radio.tag}}
+                            <label for="value_{{ forloop.counter0 }}" class="font-semibold text-emerald-600 text-sm">{{ radio.choice_label }}</label>
+                        </li>
+                    {% endfor %}
+                </ul>
+                {% if field.errors %}
+                    <span class="text-xs text-red-600">{{field.errors.0}}</span>
+                {% endif %}
+            </div>
+            {% else %}
+            <div class="space-y-2">
+                <label for="{{ field.auto_id }}" class="font-semibold text-emerald-600 text-sm">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                    <span class="text-xs text-red-600">{{field.errors.0}}</span>
+                {% endif %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <button class="rounded p-2 font-medium text-sm text-white bg-emerald-600">{{submit}}</button>
+</form>

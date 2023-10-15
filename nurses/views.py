@@ -1,8 +1,10 @@
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, CreateView
 from .models import Nurse, NurseReview
 from appointments.models import Appointment
 from django.core.paginator import Paginator
 from django.db.models import Avg, Count
+from django.urls import reverse
+from .forms import CreateNurseForm
 
 
 # Create your views here.
@@ -29,57 +31,19 @@ class NurseDetailView(DetailView):
     model = Nurse
     template_name = "nurse/detail.html"
 
-    paginate_by = 10
-
-    table_columns = [
-        {"title": "Appt Date", "key": "date"},
-        {"title": "Last Visited", "key": "last_visit"},
-        {"title": "Patient", "key": "patient"},
-        {"title": "Appt Status", "key": "status"},
-        {"title": "Action", "key": "action"},
-    ]
-
     def get_context_data(self, **kwargs):
         context = super(NurseDetailView, self).get_context_data(**kwargs)
-        appointments = self.get_appointments()
         rat_avg = self.get_rating().get("avg")
         rating, rated, unrated = None, None, None
         if rat_avg:
             rating = round(rat_avg, 2)
             rated = round(rating)
             unrated = 5 - rated
-        context.update(
-            {
-                "appointments": appointments,
-                "page_obj": appointments,
-                "rating": rating,
-                "rated": rated,
-                "unrated": unrated,
-                "columns": self.table_columns,
-            }
-        )
+        context.update({"rating": rating, "rated": rated, "unrated": unrated})
         return context
 
     def get_rating(self):
         return self.object.nursereview_set.aggregate(avg=Avg("rating"))
-
-    def get_appointments(self):
-        queryset = (
-            Appointment.objects.select_related("patient")
-            .filter(nurse=self.object)
-            .only(
-                "id",
-                "date",
-                "last_visit",
-                "status",
-                "patient__first_name",
-                "patient__last_name",
-            )
-        )
-        paginator = Paginator(queryset, self.paginate_by)
-        page = self.request.GET.get("page")
-        appointments = paginator.get_page(page)
-        return appointments
 
 
 class NurseReviewView(ListView):
@@ -148,3 +112,16 @@ class NurseReviewView(ListView):
             "rated": rated,
             "unrated": unrated,
         }
+
+
+class NurseCreateView(CreateView):
+    template_name = "nurse/create.html"
+    form_class = CreateNurseForm
+    model = Nurse
+
+    def get_success_url(self) -> str:
+        return reverse("nurses:list")
+
+    def form_valid(self, form):
+        form.save()
+        return super().form_valid(form)

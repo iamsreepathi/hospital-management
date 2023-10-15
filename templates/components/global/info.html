@@ -1,9 +1,18 @@
 <div class="w-4/5 pl-4 space-y-4">
     <div class="space-y-2">
-        <p class="font-semibold">{{object.first_name}} {{object.last_name}}</p>
-        {% if object.specialization %}
-            <p class="text-gray-500 text-sm">{{object.specialization}}</p>
-        {% endif %}
+        <div class="flex items-start justify-between">
+            <div class="space-y-2">
+                <p class="font-semibold">{{object.first_name}} {{object.last_name}}</p>
+                {% if object.specialization %}
+                    <p class="text-gray-500 text-sm">{{object.specialization}}</p>
+                {% endif %}
+            </div>
+            {% if object.specialization %}
+            <div>
+                {% include "components/global/link_button.html" with title="Book Appointment" obj=object route="appointments:doctor" %}
+            </div>
+            {% endif %}
+        </div>
         <p class="text-sm">{{object.about}}</p>
     </div>
     <div class="grid grid-cols-2 gap-2 text-sm">

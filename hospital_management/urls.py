@@ -27,3 +27,5 @@ urlpatterns = [
     path("appointments/", include("appointments.urls")),
     path("admin/", admin.site.urls),
 ]
+
+# handler404 = "hospital_management.views.custom_404"

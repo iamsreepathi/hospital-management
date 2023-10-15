@@ -1,8 +1,10 @@
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, CreateView
 from .models import Doctor, DoctorReview
 from appointments.models import Appointment
 from django.core.paginator import Paginator
 from django.db.models import Avg, Count
+from django.urls import reverse
+from .forms import CreateDoctorForm
 
 
 # Create your views here.
@@ -31,10 +33,10 @@ class DoctorDetailView(DetailView):
     paginate_by = 10
 
     table_columns = [
-        {"title": "Appt Date", "key": "date"},
-        {"title": "Last Visited", "key": "last_visit"},
-        {"title": "Patient", "key": "patient"},
+        {"title": "Patient Name", "key": "full_name"},
+        {"title": "Appt Slot", "key": "appt_slot"},
         {"title": "Appt Status", "key": "status"},
+        {"title": "Email Address", "key": "email"},
         {"title": "Action", "key": "action"},
     ]
 
@@ -63,17 +65,12 @@ class DoctorDetailView(DetailView):
         return self.object.doctorreview_set.aggregate(avg=Avg("rating"))
 
     def get_appointments(self):
-        queryset = (
-            Appointment.objects.select_related("patient")
-            .filter(doctor=self.object)
-            .only(
-                "id",
-                "date",
-                "last_visit",
-                "status",
-                "patient__first_name",
-                "patient__last_name",
-            )
+        queryset = Appointment.objects.filter(doctor=self.object).only(
+            "id",
+            "full_name",
+            "appt_slot",
+            "email",
+            "status",
         )
         paginator = Paginator(queryset, self.paginate_by)
         page = self.request.GET.get("page")
@@ -103,7 +100,6 @@ class DoctorReviewView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         ratings = self.get_overall_rating()
-        print(ratings)
         context.update(ratings)
         return context
 
@@ -148,3 +144,16 @@ class DoctorReviewView(ListView):
             "rated": rated,
             "unrated": unrated,
         }
+
+
+class DoctorCreateView(CreateView):
+    template_name = "doctor/create.html"
+    form_class = CreateDoctorForm
+    model = Doctor
+
+    def get_success_url(self) -> str:
+        return reverse("doctors:list")
+
+    def form_valid(self, form):
+        form.save()
+        return super().form_valid(form)

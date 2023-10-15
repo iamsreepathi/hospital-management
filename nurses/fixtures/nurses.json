@@ -1,442 +1,1302 @@
 [
-    {
-      "model": "nurses.nurse",
-      "pk": 1,
-      "fields": {
-        "first_name": "Kathie",
-        "last_name": "Buckner",
-        "contact_number": "(893) 507-2009",
-        "email": "kathiebuckner@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 2,
-      "fields": {
-        "first_name": "Sears",
-        "last_name": "Weiss",
-        "contact_number": "(844) 588-2925",
-        "email": "searsweiss@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 3,
-      "fields": {
-        "first_name": "Charlotte",
-        "last_name": "Pitts",
-        "contact_number": "(923) 463-2129",
-        "email": "charlottepitts@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 4,
-      "fields": {
-        "first_name": "Fay",
-        "last_name": "Hahn",
-        "contact_number": "(990) 430-2738",
-        "email": "fayhahn@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 5,
-      "fields": {
-        "first_name": "Bullock",
-        "last_name": "Goodwin",
-        "contact_number": "(910) 523-2235",
-        "email": "bullockgoodwin@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 6,
-      "fields": {
-        "first_name": "Jennings",
-        "last_name": "Foley",
-        "contact_number": "(813) 571-3565",
-        "email": "jenningsfoley@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 7,
-      "fields": {
-        "first_name": "Chavez",
-        "last_name": "Norris",
-        "contact_number": "(820) 489-2706",
-        "email": "chaveznorris@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 8,
-      "fields": {
-        "first_name": "Saunders",
-        "last_name": "Walters",
-        "contact_number": "(872) 455-3752",
-        "email": "saunderswalters@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 9,
-      "fields": {
-        "first_name": "Barry",
-        "last_name": "Higgins",
-        "contact_number": "(856) 549-2973",
-        "email": "barryhiggins@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 10,
-      "fields": {
-        "first_name": "Hendricks",
-        "last_name": "Banks",
-        "contact_number": "(963) 532-3887",
-        "email": "hendricksbanks@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 11,
-      "fields": {
-        "first_name": "Carmela",
-        "last_name": "Norton",
-        "contact_number": "(912) 404-3551",
-        "email": "carmelanorton@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 12,
-      "fields": {
-        "first_name": "Johanna",
-        "last_name": "Strickland",
-        "contact_number": "(973) 507-3720",
-        "email": "johannastrickland@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 13,
-      "fields": {
-        "first_name": "Estela",
-        "last_name": "Weber",
-        "contact_number": "(987) 575-3940",
-        "email": "estelaweber@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 14,
-      "fields": {
-        "first_name": "Hampton",
-        "last_name": "Barlow",
-        "contact_number": "(874) 549-2923",
-        "email": "hamptonbarlow@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 15,
-      "fields": {
-        "first_name": "Tasha",
-        "last_name": "Mcintyre",
-        "contact_number": "(988) 442-2091",
-        "email": "tashamcintyre@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 16,
-      "fields": {
-        "first_name": "Cleveland",
-        "last_name": "Wilkins",
-        "contact_number": "(861) 577-3818",
-        "email": "clevelandwilkins@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 17,
-      "fields": {
-        "first_name": "Finley",
-        "last_name": "Cohen",
-        "contact_number": "(936) 460-2111",
-        "email": "finleycohen@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 18,
-      "fields": {
-        "first_name": "Lesa",
-        "last_name": "Hoffman",
-        "contact_number": "(859) 434-2185",
-        "email": "lesahoffman@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 19,
-      "fields": {
-        "first_name": "Cecilia",
-        "last_name": "Blackburn",
-        "contact_number": "(967) 535-3234",
-        "email": "ceciliablackburn@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 20,
-      "fields": {
-        "first_name": "Kristine",
-        "last_name": "Conway",
-        "contact_number": "(955) 467-3393",
-        "email": "kristineconway@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 21,
-      "fields": {
-        "first_name": "Blankenship",
-        "last_name": "Boyd",
-        "contact_number": "(862) 490-2874",
-        "email": "blankenshipboyd@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 22,
-      "fields": {
-        "first_name": "Shaw",
-        "last_name": "James",
-        "contact_number": "(975) 533-2588",
-        "email": "shawjames@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 23,
-      "fields": {
-        "first_name": "Ferrell",
-        "last_name": "Ferrell",
-        "contact_number": "(835) 582-3150",
-        "email": "ferrellferrell@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 24,
-      "fields": {
-        "first_name": "Dodson",
-        "last_name": "Macdonald",
-        "contact_number": "(970) 478-3970",
-        "email": "dodsonmacdonald@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 25,
-      "fields": {
-        "first_name": "Rice",
-        "last_name": "Sanford",
-        "contact_number": "(802) 457-3304",
-        "email": "ricesanford@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 26,
-      "fields": {
-        "first_name": "Vaughn",
-        "last_name": "Mccall",
-        "contact_number": "(879) 401-2698",
-        "email": "vaughnmccall@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 27,
-      "fields": {
-        "first_name": "Selena",
-        "last_name": "Mercado",
-        "contact_number": "(992) 554-2703",
-        "email": "selenamercado@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 28,
-      "fields": {
-        "first_name": "Helga",
-        "last_name": "Duke",
-        "contact_number": "(999) 534-3573",
-        "email": "helgaduke@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 29,
-      "fields": {
-        "first_name": "Russo",
-        "last_name": "Barnes",
-        "contact_number": "(906) 498-2182",
-        "email": "russobarnes@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 30,
-      "fields": {
-        "first_name": "Aisha",
-        "last_name": "Bowers",
-        "contact_number": "(997) 547-3327",
-        "email": "aishabowers@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 31,
-      "fields": {
-        "first_name": "Knight",
-        "last_name": "Mathis",
-        "contact_number": "(814) 486-2336",
-        "email": "knightmathis@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 32,
-      "fields": {
-        "first_name": "Lang",
-        "last_name": "English",
-        "contact_number": "(898) 489-2712",
-        "email": "langenglish@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 33,
-      "fields": {
-        "first_name": "Vang",
-        "last_name": "Hess",
-        "contact_number": "(868) 549-2826",
-        "email": "vanghess@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 34,
-      "fields": {
-        "first_name": "Sexton",
-        "last_name": "Roberson",
-        "contact_number": "(911) 435-2979",
-        "email": "sextonroberson@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 35,
-      "fields": {
-        "first_name": "Raquel",
-        "last_name": "Gonzales",
-        "contact_number": "(893) 514-3518",
-        "email": "raquelgonzales@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 36,
-      "fields": {
-        "first_name": "Frederick",
-        "last_name": "Sykes",
-        "contact_number": "(889) 479-2899",
-        "email": "fredericksykes@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 37,
-      "fields": {
-        "first_name": "Diaz",
-        "last_name": "Tyson",
-        "contact_number": "(878) 449-2085",
-        "email": "diaztyson@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 38,
-      "fields": {
-        "first_name": "Julie",
-        "last_name": "Butler",
-        "contact_number": "(957) 546-3192",
-        "email": "juliebutler@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 39,
-      "fields": {
-        "first_name": "Barrett",
-        "last_name": "Holman",
-        "contact_number": "(874) 465-2228",
-        "email": "barrettholman@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
-    },
-    {
-      "model": "nurses.nurse",
-      "pk": 40,
-      "fields": {
-        "first_name": "Leigh",
-        "last_name": "Walton",
-        "contact_number": "(918) 571-3888",
-        "email": "leighwalton@quilk.com",
-        "about": "Veniam tempor duis voluptate magna aute occaecat consequat qui ipsum. Exercitation enim commodo quis non do. Laboris veniam culpa proident ut voluptate. Eu occaecat sit velit duis ut reprehenderit non ut irure ipsum minim sit irure. Nisi sunt consectetur occaecat eu et aliquip id eiusmod aliquip ex et enim. Reprehenderit laboris fugiat Lorem cupidatat minim proident Lorem adipisicing qui anim id. Ipsum ut esse enim duis.\r\n"
-      }
+  {
+    "model": "nurses.nurse",
+    "pk": 1,
+    "fields": {
+      "first_name": "Gertrude",
+      "last_name": "Workman",
+      "gender": "F",
+      "contact_number": "(807) 509-3204",
+      "email": "gertrudeworkman@skybold.com",
+      "address": "494 Lafayette Walk, Bowden, Northern Mariana Islands, 431",
+      "about": "Sit exercitation id duis et reprehenderit adipisicing officia. Ut incididunt nostrud velit duis commodo anim sint laborum voluptate. Sint cillum reprehenderit dolor proident voluptate. Lorem anim fugiat magna do ad ex laborum id.\r\n"
     }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 2,
+    "fields": {
+      "first_name": "Alyce",
+      "last_name": "Dennis",
+      "gender": "M",
+      "contact_number": "(932) 582-3678",
+      "email": "alycedennis@skybold.com",
+      "address": "992 Maple Avenue, Loveland, Pennsylvania, 1857",
+      "about": "Consequat nulla ea ad aute commodo ut aliquip. Anim tempor est fugiat aliquip amet culpa anim pariatur. Id quis quis incididunt qui proident Lorem.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 3,
+    "fields": {
+      "first_name": "Booth",
+      "last_name": "Nash",
+      "gender": "M",
+      "contact_number": "(836) 480-3797",
+      "email": "boothnash@skybold.com",
+      "address": "873 Lloyd Court, Calpine, Maryland, 6909",
+      "about": "Officia veniam exercitation dolore quis incididunt. Duis laborum aliqua ullamco sint. Esse ut est esse amet est ipsum amet exercitation ex duis incididunt minim enim sit. Est pariatur sint amet enim elit do enim proident reprehenderit sunt aliquip ut dolor consequat. Fugiat esse qui in ipsum non ad ipsum qui.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 4,
+    "fields": {
+      "first_name": "Jillian",
+      "last_name": "Cochran",
+      "gender": "F",
+      "contact_number": "(844) 557-2378",
+      "email": "jilliancochran@skybold.com",
+      "address": "575 Olive Street, Jessie, Kentucky, 8809",
+      "about": "Ipsum est sit dolor sit. Culpa dolore et officia aliqua irure culpa aliqua magna sit quis ullamco tempor non. Excepteur excepteur duis pariatur sit sit exercitation ea mollit culpa amet ut dolor. Tempor officia ipsum reprehenderit est. Exercitation excepteur dolore sunt ex irure ipsum cillum et cupidatat culpa sunt sunt. Magna velit cupidatat dolor consequat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 5,
+    "fields": {
+      "first_name": "Randi",
+      "last_name": "Bauer",
+      "gender": "F",
+      "contact_number": "(988) 533-3283",
+      "email": "randibauer@skybold.com",
+      "address": "304 Auburn Place, Roberts, Wyoming, 2894",
+      "about": "Qui sit consequat reprehenderit fugiat est consequat id exercitation sint laborum. Id ad laborum labore occaecat id irure. Ut veniam nisi ut nisi mollit. Excepteur mollit laboris laborum sit sit elit reprehenderit mollit velit ea.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 6,
+    "fields": {
+      "first_name": "Christensen",
+      "last_name": "Burke",
+      "gender": "M",
+      "contact_number": "(971) 477-3169",
+      "email": "christensenburke@skybold.com",
+      "address": "819 Turner Place, Manila, Nevada, 6382",
+      "about": "Consequat minim excepteur nostrud amet velit amet adipisicing officia aute aliqua velit excepteur velit tempor. Enim ea excepteur cillum aliqua. Dolor occaecat nulla deserunt et elit fugiat sunt exercitation sunt proident consectetur. Excepteur est et tempor in elit. Eu veniam mollit ea duis enim ad est et minim. Velit cupidatat ea enim id sunt labore aute elit. Non velit proident in consectetur deserunt irure nisi cupidatat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 7,
+    "fields": {
+      "first_name": "Robinson",
+      "last_name": "Blake",
+      "gender": "F",
+      "contact_number": "(951) 592-2639",
+      "email": "robinsonblake@skybold.com",
+      "address": "839 Veronica Place, Collins, Missouri, 6122",
+      "about": "Non eu dolore duis officia cupidatat laborum nisi exercitation. Minim quis excepteur ad elit ea ipsum labore consectetur eiusmod officia dolor do ad. Nostrud pariatur dolore est aliqua qui velit sint consequat pariatur nulla non commodo pariatur et.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 8,
+    "fields": {
+      "first_name": "Russell",
+      "last_name": "Gilmore",
+      "gender": "M",
+      "contact_number": "(811) 527-3237",
+      "email": "russellgilmore@skybold.com",
+      "address": "651 Huntington Street, Lindisfarne, Montana, 4497",
+      "about": "Sunt officia ut tempor in duis. Officia voluptate anim laboris velit et sit. Consectetur mollit qui tempor ex dolor incididunt velit ea eiusmod sit officia esse laborum. Aliqua sit eiusmod incididunt anim cillum incididunt ea exercitation in ea consectetur ullamco aliquip qui. Deserunt in exercitation dolore non aliquip elit minim in.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 9,
+    "fields": {
+      "first_name": "Christy",
+      "last_name": "Lowe",
+      "gender": "F",
+      "contact_number": "(926) 529-3187",
+      "email": "christylowe@skybold.com",
+      "address": "777 Forbell Street, Wedgewood, Utah, 7754",
+      "about": "Enim excepteur non duis amet exercitation sint aute veniam non ea cillum culpa sint. Sint nisi sit sunt nisi velit sunt. Dolor mollit cillum pariatur sint reprehenderit cillum. Lorem officia deserunt adipisicing tempor id laborum ea proident sit cupidatat eu aliquip ullamco est.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 10,
+    "fields": {
+      "first_name": "Grace",
+      "last_name": "Berger",
+      "gender": "F",
+      "contact_number": "(827) 495-2118",
+      "email": "graceberger@skybold.com",
+      "address": "420 Lester Court, Freetown, Oklahoma, 2038",
+      "about": "Nulla quis nostrud ut adipisicing occaecat commodo dolore nulla qui aliquip. Ad aliquip aliquip laboris sit nisi ad cupidatat officia et consequat anim pariatur dolore amet. Aute proident pariatur adipisicing qui quis consequat. Non enim exercitation ea consectetur ad non ipsum sunt est elit consectetur Lorem voluptate. Esse anim voluptate aliquip consectetur magna. Culpa in esse laboris non laborum.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 11,
+    "fields": {
+      "first_name": "Elena",
+      "last_name": "Blankenship",
+      "gender": "M",
+      "contact_number": "(852) 554-3858",
+      "email": "elenablankenship@skybold.com",
+      "address": "473 Tapscott Street, Sisquoc, Arkansas, 1330",
+      "about": "Eu labore dolor proident irure consequat incididunt tempor est proident eiusmod eu irure duis officia. Aliqua elit ea ex dolore reprehenderit sunt laboris. Officia occaecat consectetur mollit non commodo Lorem minim. Est nulla ea sunt commodo.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 12,
+    "fields": {
+      "first_name": "Kathryn",
+      "last_name": "Bruce",
+      "gender": "F",
+      "contact_number": "(990) 577-2201",
+      "email": "kathrynbruce@skybold.com",
+      "address": "324 Court Square, Chesapeake, Vermont, 3737",
+      "about": "Duis eu deserunt dolor in deserunt adipisicing ipsum et ipsum. Ea incididunt pariatur enim consequat velit deserunt ex duis nostrud ipsum ullamco. Commodo irure proident magna minim quis qui magna sunt incididunt dolore est tempor excepteur aliquip. Ut in sit dolor nisi incididunt deserunt anim aliquip esse ad minim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 13,
+    "fields": {
+      "first_name": "Aimee",
+      "last_name": "Howell",
+      "gender": "F",
+      "contact_number": "(945) 596-2083",
+      "email": "aimeehowell@skybold.com",
+      "address": "274 Dahill Road, Waukeenah, Arizona, 2596",
+      "about": "Proident excepteur est qui proident in fugiat magna magna. Non dolor nostrud ex dolore ea eiusmod aliqua ut enim eu. Adipisicing tempor duis excepteur pariatur eu Lorem dolore nisi consectetur. Cillum excepteur excepteur cillum labore enim. Esse culpa quis amet quis consequat irure eiusmod excepteur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 14,
+    "fields": {
+      "first_name": "Fry",
+      "last_name": "Perkins",
+      "gender": "F",
+      "contact_number": "(896) 546-3622",
+      "email": "fryperkins@skybold.com",
+      "address": "493 Miami Court, Dexter, Idaho, 4198",
+      "about": "Proident mollit irure ea anim Lorem occaecat exercitation. Adipisicing nostrud aute id duis sint quis reprehenderit. Magna deserunt ad ipsum ad ullamco qui mollit excepteur enim consectetur anim sint voluptate anim. Ut ex id ipsum officia commodo quis est officia ipsum ea voluptate. Aliqua do dolore officia esse. Mollit velit Lorem mollit nostrud dolore commodo pariatur exercitation ad sint nostrud.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 15,
+    "fields": {
+      "first_name": "Lela",
+      "last_name": "Turner",
+      "gender": "F",
+      "contact_number": "(828) 512-3944",
+      "email": "lelaturner@skybold.com",
+      "address": "337 Brighton Avenue, Fairhaven, Mississippi, 1015",
+      "about": "Id nisi anim sint nulla non et labore. Dolore deserunt duis laboris cupidatat quis. Laboris culpa sint dolore aliqua mollit nisi.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 16,
+    "fields": {
+      "first_name": "Lucinda",
+      "last_name": "Mosley",
+      "gender": "F",
+      "contact_number": "(992) 580-2188",
+      "email": "lucindamosley@skybold.com",
+      "address": "572 Girard Street, Hoehne, New Hampshire, 6282",
+      "about": "Commodo sint nulla nisi irure anim qui nostrud dolor exercitation eu velit laboris cillum ad. Quis quis adipisicing esse id excepteur aliquip ullamco excepteur pariatur irure tempor id. Ut irure enim cillum tempor tempor. Ullamco ullamco esse esse cillum minim consequat anim esse anim deserunt ex deserunt est. Nulla nulla ea ullamco magna nisi ea culpa occaecat. Esse nostrud elit eiusmod est sunt qui veniam est id culpa. Anim elit eu sunt exercitation cillum et sunt excepteur ex irure incididunt exercitation.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 17,
+    "fields": {
+      "first_name": "Rachael",
+      "last_name": "Beard",
+      "gender": "M",
+      "contact_number": "(815) 467-2889",
+      "email": "rachaelbeard@skybold.com",
+      "address": "377 Glendale Court, Cuylerville, Florida, 913",
+      "about": "Officia Lorem incididunt nulla tempor dolore. Ut sit quis mollit incididunt do velit ad cupidatat. Culpa ullamco adipisicing dolor nulla velit eiusmod irure deserunt et. Irure ullamco adipisicing quis anim pariatur nostrud ex irure eu aute nulla. Consequat deserunt duis proident commodo fugiat occaecat nulla ex cupidatat dolor laborum eu. Tempor id id do officia eiusmod sint reprehenderit exercitation nisi sint.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 18,
+    "fields": {
+      "first_name": "Maddox",
+      "last_name": "Downs",
+      "gender": "F",
+      "contact_number": "(964) 429-3398",
+      "email": "maddoxdowns@skybold.com",
+      "address": "343 Church Lane, Clay, Rhode Island, 1702",
+      "about": "Lorem tempor ex veniam nostrud anim mollit sint. Pariatur irure cillum duis deserunt do esse magna anim incididunt sit. Qui et sint amet cupidatat ut deserunt culpa.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 19,
+    "fields": {
+      "first_name": "Owens",
+      "last_name": "Cain",
+      "gender": "F",
+      "contact_number": "(817) 499-3042",
+      "email": "owenscain@skybold.com",
+      "address": "985 Post Court, Hasty, Michigan, 4126",
+      "about": "Velit deserunt nostrud consequat minim pariatur voluptate deserunt ex. Ipsum ex enim proident fugiat labore. Tempor ut nisi duis ex id reprehenderit ipsum sit ipsum aliquip amet cupidatat sint. In quis non est pariatur laborum adipisicing commodo culpa anim tempor fugiat proident. Duis culpa nulla velit Lorem aute nisi ea laboris nisi velit nulla elit fugiat duis. Aliquip aute ut tempor magna excepteur ea excepteur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 20,
+    "fields": {
+      "first_name": "Hannah",
+      "last_name": "Green",
+      "gender": "M",
+      "contact_number": "(836) 555-3989",
+      "email": "hannahgreen@skybold.com",
+      "address": "594 Langham Street, Whipholt, Minnesota, 9940",
+      "about": "Ea esse aliqua cillum anim dolore. Culpa ex cupidatat Lorem laboris. Est Lorem ex ipsum sunt officia eiusmod esse anim tempor. Ut laborum et sit qui eiusmod in nulla. Sint pariatur cillum ea laborum cillum nisi consequat id. Amet magna elit aute fugiat irure Lorem.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 21,
+    "fields": {
+      "first_name": "Allyson",
+      "last_name": "Holcomb",
+      "gender": "M",
+      "contact_number": "(831) 571-3319",
+      "email": "allysonholcomb@skybold.com",
+      "address": "318 Everett Avenue, Teasdale, Massachusetts, 6856",
+      "about": "Nostrud dolore minim elit est sint amet laborum occaecat excepteur ipsum reprehenderit sint non aute. In aute qui sint minim anim fugiat elit aute et reprehenderit enim veniam adipisicing incididunt. Nisi qui minim nisi fugiat velit sint non ullamco magna veniam ex eu laborum. Laborum aliquip Lorem officia mollit pariatur laborum enim est velit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 22,
+    "fields": {
+      "first_name": "Alvarado",
+      "last_name": "Lopez",
+      "gender": "F",
+      "contact_number": "(928) 406-3568",
+      "email": "alvaradolopez@skybold.com",
+      "address": "232 Conway Street, Cloverdale, Guam, 2513",
+      "about": "Aliqua excepteur anim adipisicing cillum enim qui occaecat eu velit do minim est esse commodo. Laboris nostrud velit minim laboris anim aliqua incididunt mollit est occaecat. Pariatur sunt officia ea nulla culpa reprehenderit sint veniam tempor aute proident incididunt tempor. Consectetur id exercitation eiusmod dolore irure veniam amet veniam minim exercitation enim cillum est. Exercitation elit elit incididunt duis. Magna laboris incididunt excepteur adipisicing aliqua esse exercitation nulla consequat cupidatat sunt non eu dolore. Ea minim magna dolore fugiat dolor duis cupidatat sunt excepteur enim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 23,
+    "fields": {
+      "first_name": "Rodriquez",
+      "last_name": "Sosa",
+      "gender": "M",
+      "contact_number": "(831) 480-3074",
+      "email": "rodriquezsosa@skybold.com",
+      "address": "815 Garnet Street, Lumberton, Connecticut, 6035",
+      "about": "Aliqua nulla quis sunt sunt pariatur non et eiusmod. Laborum tempor duis ullamco ut id occaecat aliqua excepteur enim proident ullamco eiusmod. Sint commodo consectetur aliquip consequat duis aliquip mollit pariatur proident. Laborum amet incididunt consectetur et ex. Sint sit officia magna quis eu exercitation esse duis deserunt.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 24,
+    "fields": {
+      "first_name": "Ross",
+      "last_name": "Klein",
+      "gender": "M",
+      "contact_number": "(907) 479-2939",
+      "email": "rossklein@skybold.com",
+      "address": "505 Aster Court, Joppa, South Carolina, 7388",
+      "about": "Consectetur magna enim in eiusmod proident nulla cillum tempor sunt. Reprehenderit ex aliquip et id pariatur fugiat. Cupidatat ullamco tempor cupidatat eu.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 25,
+    "fields": {
+      "first_name": "Everett",
+      "last_name": "Arnold",
+      "gender": "F",
+      "contact_number": "(809) 536-3851",
+      "email": "everettarnold@skybold.com",
+      "address": "744 Fillmore Place, Gadsden, Virgin Islands, 4828",
+      "about": "Laboris laborum eiusmod anim ad esse velit eiusmod adipisicing. Ad esse esse anim occaecat voluptate aliquip nostrud sunt laborum. Qui ad non tempor elit aute reprehenderit sunt fugiat enim Lorem nostrud excepteur qui irure. Tempor officia culpa voluptate commodo nulla in ea est irure incididunt nostrud. Sunt ea ad sint ut tempor eu proident reprehenderit laboris ullamco qui.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 26,
+    "fields": {
+      "first_name": "Trudy",
+      "last_name": "Henry",
+      "gender": "M",
+      "contact_number": "(982) 598-3416",
+      "email": "trudyhenry@skybold.com",
+      "address": "928 Applegate Court, Clarence, Iowa, 7615",
+      "about": "Qui commodo sit ad qui nisi. Nisi dolor excepteur exercitation amet quis veniam. Amet ullamco irure laborum pariatur quis consequat adipisicing quis incididunt.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 27,
+    "fields": {
+      "first_name": "Bond",
+      "last_name": "Peck",
+      "gender": "F",
+      "contact_number": "(817) 413-2816",
+      "email": "bondpeck@skybold.com",
+      "address": "249 Schaefer Street, Chamberino, Ohio, 5681",
+      "about": "Voluptate velit dolor non ad commodo velit aute. Quis enim velit qui sint cupidatat laborum. Laborum cillum ullamco non cillum et ut. Laborum mollit do mollit nisi est ex sint ex laboris nulla quis exercitation labore. Aliquip sunt excepteur culpa enim. Ut anim nulla enim culpa fugiat pariatur duis id.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 28,
+    "fields": {
+      "first_name": "Melanie",
+      "last_name": "Stewart",
+      "gender": "F",
+      "contact_number": "(871) 581-3594",
+      "email": "melaniestewart@skybold.com",
+      "address": "588 Bryant Street, Sabillasville, Delaware, 767",
+      "about": "Incididunt proident labore esse reprehenderit mollit quis eiusmod reprehenderit ea quis exercitation aliquip dolor ut. Sit culpa exercitation fugiat irure culpa. Sint laboris exercitation ea ea eiusmod commodo ad officia nisi. Eiusmod nulla reprehenderit officia ex ad occaecat ex culpa irure. Voluptate duis sit nostrud consequat nostrud excepteur. Sint minim laborum excepteur irure labore amet consequat quis commodo cupidatat esse. Adipisicing cupidatat deserunt consequat Lorem aliqua pariatur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 29,
+    "fields": {
+      "first_name": "Marjorie",
+      "last_name": "England",
+      "gender": "F",
+      "contact_number": "(827) 428-2266",
+      "email": "marjorieengland@skybold.com",
+      "address": "824 Belmont Avenue, Ladera, Georgia, 6523",
+      "about": "Minim nostrud qui reprehenderit eu pariatur ad labore aute sit cillum. Laborum et aliqua esse consequat reprehenderit ea anim reprehenderit in eu. Deserunt qui adipisicing excepteur qui do reprehenderit officia qui commodo excepteur Lorem et amet. Ullamco culpa incididunt culpa irure laborum officia voluptate exercitation.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 30,
+    "fields": {
+      "first_name": "Calderon",
+      "last_name": "Bridges",
+      "gender": "M",
+      "contact_number": "(917) 414-3192",
+      "email": "calderonbridges@skybold.com",
+      "address": "719 Crescent Street, Cashtown, Texas, 9173",
+      "about": "Adipisicing do anim commodo quis non commodo ea culpa nisi. Sunt id labore commodo eiusmod eu. Ad amet consequat dolor enim nostrud. Sint consectetur veniam nulla qui esse id commodo exercitation. Do nisi nulla amet sunt dolore pariatur veniam consectetur do. Magna culpa pariatur officia qui nulla.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 31,
+    "fields": {
+      "first_name": "Larson",
+      "last_name": "Gross",
+      "gender": "F",
+      "contact_number": "(916) 534-2718",
+      "email": "larsongross@skybold.com",
+      "address": "276 Ashland Place, Gwynn, Federated States Of Micronesia, 7112",
+      "about": "Aliqua officia tempor aliqua ea exercitation tempor enim dolore. Occaecat ullamco consequat tempor nostrud do nisi quis ex sit ut velit cillum minim. Nisi dolore adipisicing dolor nostrud dolor et labore duis. Exercitation proident culpa ut magna aute laborum cupidatat. Ipsum deserunt ad laborum eiusmod consequat elit enim cupidatat consectetur. Ex enim ad minim irure cupidatat laborum. Quis nostrud aliquip exercitation cupidatat proident nulla deserunt est veniam qui labore voluptate officia in.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 32,
+    "fields": {
+      "first_name": "Pruitt",
+      "last_name": "Stout",
+      "gender": "F",
+      "contact_number": "(899) 414-2409",
+      "email": "pruittstout@skybold.com",
+      "address": "929 Dupont Street, Fairmount, New York, 2375",
+      "about": "Mollit elit aliquip ut ullamco cupidatat non amet. Consectetur esse aute et adipisicing ut esse mollit reprehenderit aute duis culpa. Cillum qui culpa ad deserunt do culpa id nulla. Officia labore dolore sint cillum non ullamco Lorem veniam. Eu labore officia occaecat duis esse ad exercitation ad in commodo officia amet ipsum eiusmod. Ex commodo elit est quis esse labore velit tempor nulla est labore velit irure. Amet amet officia officia nulla sunt minim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 33,
+    "fields": {
+      "first_name": "Cooley",
+      "last_name": "Hickman",
+      "gender": "F",
+      "contact_number": "(901) 425-2642",
+      "email": "cooleyhickman@skybold.com",
+      "address": "139 Kaufman Place, Orviston, Colorado, 6735",
+      "about": "Veniam irure anim minim mollit velit nisi consequat dolore. Cillum et in proident nostrud ex aliquip. Et laborum qui nisi eu consectetur excepteur pariatur ea excepteur voluptate et sint. Magna velit cupidatat ullamco ullamco velit exercitation Lorem sunt. Amet aliqua ullamco adipisicing aliquip consequat velit labore adipisicing culpa et. Consequat proident et dolor id aliqua minim ullamco nulla ad labore id duis non deserunt. Sunt Lorem in officia veniam exercitation.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 34,
+    "fields": {
+      "first_name": "Fischer",
+      "last_name": "Alford",
+      "gender": "M",
+      "contact_number": "(998) 567-3505",
+      "email": "fischeralford@skybold.com",
+      "address": "421 Wilson Street, Beaverdale, North Carolina, 9501",
+      "about": "Qui sunt ullamco sunt adipisicing laboris. Quis exercitation consequat enim duis ex sit dolor duis. Deserunt deserunt id exercitation exercitation cillum sint consectetur velit fugiat sunt in tempor labore.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 35,
+    "fields": {
+      "first_name": "Lily",
+      "last_name": "Stuart",
+      "gender": "F",
+      "contact_number": "(949) 436-2377",
+      "email": "lilystuart@skybold.com",
+      "address": "281 Heyward Street, Cetronia, Alabama, 6198",
+      "about": "Cillum incididunt eu ad sunt eiusmod velit et. Officia velit veniam amet officia sit sit sit excepteur consectetur aute aute fugiat officia. Veniam duis aliqua velit in ad. Ad tempor consequat est in veniam anim exercitation incididunt nulla quis. Adipisicing dolore labore labore nisi sit ex Lorem veniam velit duis culpa fugiat minim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 36,
+    "fields": {
+      "first_name": "Maryellen",
+      "last_name": "Wilson",
+      "gender": "F",
+      "contact_number": "(843) 511-2501",
+      "email": "maryellenwilson@skybold.com",
+      "address": "542 Miller Place, Hilltop, Nebraska, 6058",
+      "about": "Duis in nisi in mollit aute. Adipisicing anim consequat non officia voluptate veniam ut id id commodo proident sunt. Eiusmod cillum et consequat dolore amet non qui minim ullamco cillum irure anim sit id. Qui quis ex consequat dolore. Sunt magna est laboris nostrud officia consectetur officia labore exercitation cillum nostrud ex aute mollit. Deserunt voluptate ea do ullamco.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 37,
+    "fields": {
+      "first_name": "Alexis",
+      "last_name": "Conner",
+      "gender": "M",
+      "contact_number": "(971) 441-2701",
+      "email": "alexisconner@skybold.com",
+      "address": "103 Glenwood Road, Rehrersburg, Louisiana, 8817",
+      "about": "Officia dolor deserunt nostrud ullamco labore esse sint ipsum ad sit sunt quis. Ipsum reprehenderit cillum est est mollit incididunt. Mollit aliquip reprehenderit dolor id pariatur non do culpa aliquip ipsum quis voluptate laborum fugiat. Sit ipsum irure sunt esse quis pariatur tempor elit nulla dolore mollit culpa anim magna. Amet cupidatat anim adipisicing culpa eiusmod veniam deserunt id laboris elit veniam ex nostrud cupidatat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 38,
+    "fields": {
+      "first_name": "Patel",
+      "last_name": "Booth",
+      "gender": "F",
+      "contact_number": "(915) 460-2118",
+      "email": "patelbooth@skybold.com",
+      "address": "223 Lyme Avenue, Chemung, Alaska, 3739",
+      "about": "Ea incididunt labore sit reprehenderit id fugiat minim labore et minim occaecat velit sit duis. Ex non cupidatat voluptate consequat amet exercitation amet labore veniam. Ullamco nisi ea elit veniam quis aute exercitation eiusmod qui laborum ut. Mollit labore aliquip et elit elit voluptate est consectetur proident non voluptate ipsum id in.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 39,
+    "fields": {
+      "first_name": "Clarke",
+      "last_name": "Abbott",
+      "gender": "F",
+      "contact_number": "(952) 582-2716",
+      "email": "clarkeabbott@skybold.com",
+      "address": "329 Manhattan Court, Watrous, Washington, 3554",
+      "about": "Laborum sint quis anim eiusmod voluptate eu consectetur cillum dolor ipsum. Labore qui incididunt labore esse adipisicing pariatur adipisicing cupidatat amet sunt. Dolor culpa velit voluptate ad cillum pariatur. Dolor labore ut cupidatat ipsum exercitation eiusmod. Ea aute est cillum irure esse laborum voluptate commodo et non elit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 40,
+    "fields": {
+      "first_name": "Jenkins",
+      "last_name": "Cooper",
+      "gender": "M",
+      "contact_number": "(975) 475-2086",
+      "email": "jenkinscooper@skybold.com",
+      "address": "590 Union Avenue, Caroline, Palau, 2534",
+      "about": "Laboris est pariatur sint esse laborum cillum laboris occaecat. Velit ut dolore fugiat aliquip elit. Mollit proident duis consectetur reprehenderit elit adipisicing ea officia eiusmod nulla labore. Aliqua sint Lorem aute Lorem laboris proident non proident culpa id aute. Ad voluptate minim tempor eu consequat velit id commodo do anim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 41,
+    "fields": {
+      "first_name": "William",
+      "last_name": "Mathis",
+      "gender": "M",
+      "contact_number": "(992) 532-2701",
+      "email": "williammathis@skybold.com",
+      "address": "456 Kingsland Avenue, Bellfountain, Marshall Islands, 3859",
+      "about": "Consectetur exercitation nisi irure nulla veniam eu deserunt duis. Incididunt laboris ex dolore id Lorem est proident qui Lorem laborum. Quis qui amet irure sint ad excepteur in. Qui elit exercitation cillum eu laboris est deserunt esse commodo ipsum id. Elit est laborum labore qui ex velit nostrud sunt cillum commodo amet. Magna velit cupidatat aute eu proident ex ipsum labore mollit irure esse.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 42,
+    "fields": {
+      "first_name": "Jacobson",
+      "last_name": "Moore",
+      "gender": "M",
+      "contact_number": "(908) 514-3491",
+      "email": "jacobsonmoore@skybold.com",
+      "address": "337 Middagh Street, Wyano, Wisconsin, 2395",
+      "about": "Mollit minim pariatur eiusmod velit est velit adipisicing consequat. Eiusmod consectetur ea reprehenderit magna ullamco. Esse eu minim sunt ullamco reprehenderit do. Ea et dolore nisi ea. Fugiat voluptate aliqua magna minim tempor aliquip excepteur ad labore et nostrud et tempor. Do minim velit duis laborum.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 43,
+    "fields": {
+      "first_name": "Ina",
+      "last_name": "Potts",
+      "gender": "M",
+      "contact_number": "(919) 456-2490",
+      "email": "inapotts@skybold.com",
+      "address": "613 Gates Avenue, Kiskimere, Maine, 9903",
+      "about": "Dolore do anim ea eu. Commodo eu aliquip aute nostrud ipsum reprehenderit laboris sint elit occaecat Lorem nulla aliqua. Incididunt cupidatat tempor exercitation exercitation occaecat deserunt sunt minim eu sunt ipsum. Elit minim elit excepteur minim elit ut qui do. Nisi Lorem in anim sint irure magna ad fugiat exercitation deserunt Lorem pariatur sunt.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 44,
+    "fields": {
+      "first_name": "Wendi",
+      "last_name": "Craft",
+      "gender": "M",
+      "contact_number": "(960) 480-2408",
+      "email": "wendicraft@skybold.com",
+      "address": "671 Knight Court, Goldfield, Virginia, 4728",
+      "about": "Enim pariatur deserunt et sint aliqua cupidatat. Cupidatat nulla commodo anim incididunt consequat culpa tempor ea duis excepteur adipisicing adipisicing eu. Duis pariatur eu excepteur velit ad veniam anim consequat consectetur ipsum nulla. Aute dolor qui adipisicing dolor. Sint cillum sint anim amet est consequat culpa ex dolore duis. Velit et exercitation voluptate consequat velit commodo.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 45,
+    "fields": {
+      "first_name": "Landry",
+      "last_name": "Holman",
+      "gender": "F",
+      "contact_number": "(851) 474-3464",
+      "email": "landryholman@skybold.com",
+      "address": "210 Cherry Street, Logan, South Dakota, 6946",
+      "about": "Ea exercitation aute aliquip pariatur esse esse fugiat commodo dolor. Ut quis dolore occaecat ut elit officia pariatur aliqua cupidatat minim incididunt deserunt laboris dolore. Nostrud nisi minim sint occaecat magna deserunt ad esse duis aute ut. Id excepteur mollit non esse eiusmod id velit dolor sint duis exercitation elit. Ad magna elit irure tempor irure laborum. Aute laborum minim velit labore irure nulla.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 46,
+    "fields": {
+      "first_name": "Courtney",
+      "last_name": "Santos",
+      "gender": "F",
+      "contact_number": "(983) 430-3457",
+      "email": "courtneysantos@skybold.com",
+      "address": "239 Sutter Avenue, Marshall, North Dakota, 1604",
+      "about": "Veniam anim nisi excepteur commodo elit nisi pariatur pariatur in ea sint laboris. Aute enim duis dolore ut. Nulla eu ut deserunt cillum amet ad mollit culpa ea cillum incididunt excepteur et. Adipisicing Lorem ut nostrud laboris fugiat adipisicing sit dolore anim. Voluptate sint veniam mollit duis culpa. Mollit officia nulla sunt aliquip cupidatat aliquip mollit. Esse ex duis nisi esse ex fugiat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 47,
+    "fields": {
+      "first_name": "Battle",
+      "last_name": "Peterson",
+      "gender": "F",
+      "contact_number": "(843) 436-2364",
+      "email": "battlepeterson@skybold.com",
+      "address": "996 Boerum Street, Ahwahnee, Tennessee, 1073",
+      "about": "Esse adipisicing sint laborum sunt excepteur consequat consectetur ipsum magna non commodo sunt quis ullamco. Veniam labore irure deserunt pariatur incididunt minim non. Irure ut anim nisi amet ex ipsum ipsum ad. Non voluptate aute occaecat est commodo.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 48,
+    "fields": {
+      "first_name": "Tonya",
+      "last_name": "Ruiz",
+      "gender": "M",
+      "contact_number": "(844) 487-2619",
+      "email": "tonyaruiz@skybold.com",
+      "address": "420 Branton Street, Joes, West Virginia, 3514",
+      "about": "Irure non nulla nisi dolor eiusmod proident elit. Cupidatat nulla ut aliquip non ut. Eiusmod excepteur commodo anim commodo reprehenderit cillum aute elit Lorem.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 49,
+    "fields": {
+      "first_name": "Ginger",
+      "last_name": "Barton",
+      "gender": "M",
+      "contact_number": "(937) 414-3686",
+      "email": "gingerbarton@skybold.com",
+      "address": "512 Hegeman Avenue, Harrison, Illinois, 8390",
+      "about": "Aute consequat elit id aliqua officia consequat eiusmod nulla cupidatat in cupidatat enim dolore. Cillum id tempor proident proident id aliqua sint qui non elit mollit ea duis amet. Dolor culpa officia ex magna commodo enim et. Voluptate minim est aliqua sit culpa minim id excepteur est dolore dolor Lorem ea. Adipisicing culpa ea anim veniam id ex duis id ad id. Ad non cillum ex elit esse eu. Dolor non tempor cupidatat minim excepteur ipsum ea deserunt nulla occaecat est aliquip.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 50,
+    "fields": {
+      "first_name": "Pearson",
+      "last_name": "Saunders",
+      "gender": "F",
+      "contact_number": "(891) 407-3070",
+      "email": "pearsonsaunders@skybold.com",
+      "address": "876 Hendrickson Place, Torboy, Kansas, 2976",
+      "about": "In irure adipisicing quis ipsum voluptate aute. Nostrud aliquip nostrud fugiat dolor esse id. Ad consectetur sunt eiusmod nisi elit magna duis mollit esse. Deserunt est veniam pariatur irure tempor aute anim. Minim eiusmod laborum cillum ipsum tempor aliquip. Officia duis aute non pariatur voluptate culpa. Adipisicing eu reprehenderit fugiat ullamco pariatur nisi proident cillum esse deserunt ad.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 51,
+    "fields": {
+      "first_name": "Margret",
+      "last_name": "Bennett",
+      "gender": "F",
+      "contact_number": "(862) 522-2090",
+      "email": "margretbennett@skybold.com",
+      "address": "648 Diamond Street, Farmers, New Jersey, 1308",
+      "about": "Ullamco consectetur in elit eiusmod ea commodo consequat id et minim tempor qui. Fugiat non culpa pariatur cupidatat. Incididunt ut cillum commodo Lorem elit culpa id consequat. Ut in aliquip ullamco non eu.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 52,
+    "fields": {
+      "first_name": "Gena",
+      "last_name": "Nichols",
+      "gender": "M",
+      "contact_number": "(971) 564-2447",
+      "email": "genanichols@skybold.com",
+      "address": "423 Rochester Avenue, Barstow, Oregon, 2435",
+      "about": "Dolore labore adipisicing est laborum eiusmod do labore mollit sint. Exercitation officia adipisicing proident excepteur proident esse fugiat ut ut aute. Ipsum incididunt nulla ipsum culpa proident exercitation sint ad do deserunt duis aliquip amet. Mollit excepteur culpa officia eiusmod sit consectetur non nostrud officia. Sunt quis ullamco qui nostrud non dolor nulla fugiat proident aute aliquip amet nostrud. Incididunt et reprehenderit sunt esse consectetur qui duis Lorem. Cillum nostrud tempor ea minim eiusmod ullamco ut.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 53,
+    "fields": {
+      "first_name": "Anne",
+      "last_name": "Mcneil",
+      "gender": "F",
+      "contact_number": "(817) 534-3630",
+      "email": "annemcneil@skybold.com",
+      "address": "191 Autumn Avenue, Harviell, Hawaii, 8545",
+      "about": "Proident veniam occaecat in quis ex laborum. Culpa exercitation velit in deserunt aliquip tempor. Aliquip occaecat ullamco eu ea ullamco sit est adipisicing non occaecat ut laboris ea eu.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 54,
+    "fields": {
+      "first_name": "Noel",
+      "last_name": "David",
+      "gender": "M",
+      "contact_number": "(820) 445-2802",
+      "email": "noeldavid@skybold.com",
+      "address": "666 Noble Street, Boonville, Puerto Rico, 4053",
+      "about": "Enim voluptate esse commodo pariatur ipsum est consectetur dolor. Dolore do eu Lorem consectetur laborum et voluptate. Duis cupidatat irure excepteur sit proident laboris sunt eu eu adipisicing.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 55,
+    "fields": {
+      "first_name": "Duke",
+      "last_name": "Atkins",
+      "gender": "M",
+      "contact_number": "(848) 582-2084",
+      "email": "dukeatkins@skybold.com",
+      "address": "322 Forrest Street, Templeton, District Of Columbia, 415",
+      "about": "Cupidatat deserunt do dolore quis nisi dolore irure anim. Est in esse adipisicing aliquip exercitation quis irure fugiat in. Pariatur eiusmod dolore fugiat incididunt pariatur incididunt consequat excepteur in non in. Anim quis dolore proident nulla ipsum ad. Lorem incididunt cupidatat cillum nisi irure mollit Lorem ad exercitation duis ad ut adipisicing. Amet officia nulla eiusmod amet ea consectetur dolor eu sunt aliqua. Culpa minim do eiusmod nisi.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 56,
+    "fields": {
+      "first_name": "Boone",
+      "last_name": "Richard",
+      "gender": "F",
+      "contact_number": "(896) 503-3310",
+      "email": "boonerichard@skybold.com",
+      "address": "122 Madison Street, Sedley, New Mexico, 4449",
+      "about": "Occaecat irure Lorem amet quis ipsum dolore. Reprehenderit labore commodo ea ea dolor labore nisi. Eu exercitation deserunt quis duis enim laborum cillum.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 57,
+    "fields": {
+      "first_name": "Andrea",
+      "last_name": "Hester",
+      "gender": "F",
+      "contact_number": "(907) 597-3307",
+      "email": "andreahester@skybold.com",
+      "address": "430 Riverdale Avenue, Cowiche, Indiana, 9557",
+      "about": "Lorem exercitation ea irure exercitation consectetur adipisicing ut. Ea excepteur esse pariatur laboris duis non veniam est cillum ad. Ullamco id mollit pariatur ut. Sunt in ullamco sint mollit ad amet adipisicing quis tempor amet sint eu. Minim et exercitation deserunt officia. Ullamco culpa dolore sunt tempor. Est ex nostrud ea ex.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 58,
+    "fields": {
+      "first_name": "Luella",
+      "last_name": "Dean",
+      "gender": "M",
+      "contact_number": "(888) 572-2522",
+      "email": "luelladean@skybold.com",
+      "address": "485 Atlantic Avenue, Tecolotito, American Samoa, 6950",
+      "about": "In aliquip do cillum ut culpa ipsum aliqua. Ipsum non qui fugiat non est irure qui magna consequat commodo eiusmod consequat. Dolor in cupidatat laboris sunt. Non consequat id velit esse laborum pariatur nostrud. Duis dolor elit exercitation nisi culpa. Exercitation laborum magna culpa non. Exercitation occaecat exercitation enim cillum irure velit incididunt tempor nulla occaecat ad sint consequat magna.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 59,
+    "fields": {
+      "first_name": "Teresa",
+      "last_name": "Kramer",
+      "gender": "M",
+      "contact_number": "(917) 441-2359",
+      "email": "teresakramer@skybold.com",
+      "address": "966 Jaffray Street, Choctaw, Northern Mariana Islands, 8775",
+      "about": "Ipsum consequat ullamco nulla ullamco reprehenderit anim exercitation ipsum minim mollit velit sint nostrud. Ut fugiat consectetur ad pariatur laborum occaecat culpa consequat quis aute esse irure tempor est. Labore qui commodo elit do.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 60,
+    "fields": {
+      "first_name": "Helena",
+      "last_name": "Keller",
+      "gender": "F",
+      "contact_number": "(811) 520-3660",
+      "email": "helenakeller@skybold.com",
+      "address": "454 Harway Avenue, Campo, Pennsylvania, 6290",
+      "about": "Esse ad ullamco Lorem exercitation est nostrud nostrud proident sint aliqua esse. Dolore ad proident eiusmod est tempor sit Lorem nostrud officia. Enim cillum commodo tempor minim ullamco dolor magna.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 61,
+    "fields": {
+      "first_name": "Steele",
+      "last_name": "Finch",
+      "gender": "F",
+      "contact_number": "(879) 589-2169",
+      "email": "steelefinch@skybold.com",
+      "address": "843 Pooles Lane, Mapletown, Maryland, 1390",
+      "about": "Ea cupidatat nisi excepteur eu minim velit anim dolor consequat aliqua ut do officia. Reprehenderit velit sit veniam amet dolor. Quis ad ullamco mollit ullamco magna exercitation dolor exercitation consequat ad do adipisicing sint. Deserunt sint dolor id nisi velit. Minim dolor elit adipisicing sit ex adipisicing deserunt laboris non velit culpa duis occaecat labore. Tempor esse deserunt enim deserunt dolore commodo esse pariatur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 62,
+    "fields": {
+      "first_name": "Flora",
+      "last_name": "Jimenez",
+      "gender": "F",
+      "contact_number": "(964) 425-2703",
+      "email": "florajimenez@skybold.com",
+      "address": "123 Sedgwick Street, Convent, Kentucky, 3326",
+      "about": "Officia sint ad aliquip dolore ex enim ut proident. Minim reprehenderit Lorem sit voluptate cupidatat in duis deserunt ullamco nostrud irure. Anim eu eiusmod Lorem consequat fugiat occaecat eiusmod ipsum ullamco nulla esse amet magna fugiat. Sit voluptate in officia velit aliqua mollit labore aute anim id nostrud aliquip qui officia. Amet cupidatat anim eiusmod est qui sit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 63,
+    "fields": {
+      "first_name": "Joni",
+      "last_name": "Oconnor",
+      "gender": "F",
+      "contact_number": "(950) 474-2439",
+      "email": "jonioconnor@skybold.com",
+      "address": "324 Pierrepont Street, Fostoria, Wyoming, 4040",
+      "about": "Adipisicing aliquip nisi labore qui magna ut deserunt. Proident pariatur velit officia cillum adipisicing pariatur Lorem est amet consectetur do. Proident pariatur aliquip excepteur veniam in magna non ad minim ea sint dolor. Non do dolore est quis ad reprehenderit officia amet sit eu in dolore. Lorem mollit et est duis ad proident et nostrud laborum aliquip.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 64,
+    "fields": {
+      "first_name": "Mccray",
+      "last_name": "Hodges",
+      "gender": "M",
+      "contact_number": "(920) 472-2464",
+      "email": "mccrayhodges@skybold.com",
+      "address": "158 Bayview Place, Eden, Nevada, 1741",
+      "about": "Tempor id do do quis. Ut velit sint proident in culpa id tempor nostrud id. Irure do officia nulla cupidatat adipisicing veniam nostrud labore proident culpa fugiat adipisicing occaecat minim. Incididunt culpa veniam id dolor ut in ex aliqua ea consequat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 65,
+    "fields": {
+      "first_name": "Aguirre",
+      "last_name": "Campos",
+      "gender": "M",
+      "contact_number": "(895) 576-2291",
+      "email": "aguirrecampos@skybold.com",
+      "address": "987 Exeter Street, Bennett, Missouri, 3648",
+      "about": "Nulla ullamco velit ad voluptate aliquip fugiat deserunt tempor veniam sunt amet adipisicing. Ut minim dolor sit dolor nostrud nostrud dolor et quis cillum. Adipisicing officia do aliquip do elit consequat tempor cupidatat consectetur. Anim magna Lorem laboris amet reprehenderit. Ipsum aliquip anim ut laboris. Nostrud dolore occaecat enim qui nostrud eu ut do consectetur incididunt excepteur consectetur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 66,
+    "fields": {
+      "first_name": "Valerie",
+      "last_name": "Wiggins",
+      "gender": "F",
+      "contact_number": "(837) 498-3248",
+      "email": "valeriewiggins@skybold.com",
+      "address": "357 Vanderbilt Avenue, Rosewood, Montana, 7138",
+      "about": "Ea ad et ea laborum commodo ullamco cupidatat excepteur laborum dolor occaecat. Irure voluptate ea ex dolor irure Lorem sint anim laboris. Cillum consequat laboris Lorem ullamco nostrud ea velit occaecat eu sunt eiusmod culpa sit. Minim consectetur aute non qui fugiat nisi proident sint dolor nulla dolore. Laborum exercitation Lorem et Lorem cupidatat consectetur occaecat reprehenderit officia veniam minim adipisicing. Eu laborum nostrud in deserunt adipisicing exercitation laborum duis.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 67,
+    "fields": {
+      "first_name": "Chen",
+      "last_name": "Hughes",
+      "gender": "F",
+      "contact_number": "(951) 437-3124",
+      "email": "chenhughes@skybold.com",
+      "address": "697 Hunterfly Place, Kraemer, Utah, 5511",
+      "about": "Excepteur veniam labore officia aute do anim nisi ad non elit mollit aute. Dolore est culpa sunt ut mollit esse. Ut exercitation enim aute occaecat deserunt reprehenderit consequat. Eu irure amet nulla cillum. Cillum elit ipsum nisi irure.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 68,
+    "fields": {
+      "first_name": "Slater",
+      "last_name": "Hampton",
+      "gender": "M",
+      "contact_number": "(897) 449-3717",
+      "email": "slaterhampton@skybold.com",
+      "address": "319 Perry Terrace, Roeville, Oklahoma, 9296",
+      "about": "Nostrud non officia dolor est duis veniam exercitation labore adipisicing culpa. Cillum ut sit veniam elit mollit qui cillum exercitation nisi quis anim nostrud. Minim sunt non officia voluptate esse incididunt quis. Nisi veniam culpa pariatur ea dolor ea voluptate. Et irure deserunt velit reprehenderit quis non irure ad duis laboris aute sit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 69,
+    "fields": {
+      "first_name": "Chang",
+      "last_name": "Herrera",
+      "gender": "F",
+      "contact_number": "(958) 407-2364",
+      "email": "changherrera@skybold.com",
+      "address": "780 Morgan Avenue, Neahkahnie, Arkansas, 104",
+      "about": "Do eu do officia eu id aute commodo. Dolore ut ipsum sunt anim veniam consectetur nostrud adipisicing esse do incididunt. Eiusmod consectetur labore voluptate id dolor eiusmod fugiat adipisicing sit nostrud fugiat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 70,
+    "fields": {
+      "first_name": "Walker",
+      "last_name": "Cotton",
+      "gender": "F",
+      "contact_number": "(933) 526-2071",
+      "email": "walkercotton@skybold.com",
+      "address": "553 Guernsey Street, Iola, Vermont, 5450",
+      "about": "Do eiusmod occaecat sit nostrud labore commodo irure non qui. Incididunt eiusmod deserunt ex ullamco commodo incididunt excepteur occaecat est. Aliqua duis adipisicing labore laborum pariatur do amet laboris officia occaecat. Mollit ea aliqua laboris ut consequat ipsum nisi et dolor adipisicing cillum amet sint ea. Officia ad dolore laborum mollit dolor nisi aute.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 71,
+    "fields": {
+      "first_name": "Marsha",
+      "last_name": "Barnett",
+      "gender": "M",
+      "contact_number": "(904) 408-2064",
+      "email": "marshabarnett@skybold.com",
+      "address": "902 Gilmore Court, Westphalia, Arizona, 9862",
+      "about": "Proident nulla deserunt dolore irure dolor voluptate duis culpa cupidatat sit ea. Esse sunt sint fugiat adipisicing voluptate. Tempor excepteur amet tempor irure consequat laborum anim magna enim et eu pariatur esse ea. Sit proident deserunt dolore Lorem non. Nulla velit consectetur exercitation adipisicing incididunt laboris sunt do qui. Esse irure aliquip ut nisi veniam incididunt. Incididunt anim non et irure esse reprehenderit Lorem et voluptate velit eiusmod exercitation.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 72,
+    "fields": {
+      "first_name": "Janna",
+      "last_name": "Crawford",
+      "gender": "M",
+      "contact_number": "(927) 491-2845",
+      "email": "jannacrawford@skybold.com",
+      "address": "319 Hawthorne Street, Rose, Idaho, 4389",
+      "about": "Commodo labore pariatur ex cupidatat fugiat veniam commodo. Aute et commodo do nulla voluptate velit do officia sunt ad sit. Est ad incididunt consectetur nostrud id.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 73,
+    "fields": {
+      "first_name": "Shepherd",
+      "last_name": "Alston",
+      "gender": "M",
+      "contact_number": "(990) 492-3288",
+      "email": "shepherdalston@skybold.com",
+      "address": "869 Radde Place, Hickory, Mississippi, 3789",
+      "about": "Et duis ut eiusmod qui laborum Lorem aliqua consectetur. Pariatur ullamco nisi laborum reprehenderit ullamco. Nisi incididunt Lorem adipisicing ea cupidatat laboris. Quis sint sunt minim esse deserunt pariatur aliquip elit id dolore. Eiusmod nostrud enim eu consectetur nisi proident ad Lorem cillum nisi minim mollit est consectetur. Eu ullamco eiusmod dolore ipsum Lorem deserunt exercitation adipisicing culpa ea Lorem quis est ut.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 74,
+    "fields": {
+      "first_name": "Lena",
+      "last_name": "Warner",
+      "gender": "F",
+      "contact_number": "(838) 460-2426",
+      "email": "lenawarner@skybold.com",
+      "address": "337 Lloyd Street, Wawona, New Hampshire, 4600",
+      "about": "Pariatur aliquip dolore eiusmod adipisicing commodo est eiusmod irure nisi. Ad non exercitation est id aliqua ullamco nostrud veniam pariatur quis. Labore labore eu excepteur id est elit tempor anim culpa in quis dolor labore commodo. Magna culpa ex aliqua ea veniam enim Lorem officia laboris. Voluptate eu est nisi duis consectetur Lorem magna ad enim nulla est cupidatat eu. Officia veniam tempor amet do labore. Qui duis eiusmod minim excepteur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 75,
+    "fields": {
+      "first_name": "Cortez",
+      "last_name": "Whitfield",
+      "gender": "M",
+      "contact_number": "(843) 595-2928",
+      "email": "cortezwhitfield@skybold.com",
+      "address": "915 McDonald Avenue, Richford, Florida, 5479",
+      "about": "Elit consectetur mollit in proident laborum ex et aliqua tempor mollit sit sint. Qui labore id qui duis adipisicing. Enim non consectetur magna quis do enim officia et nostrud ea sint laboris dolor eiusmod. Commodo deserunt consequat sit laborum dolore do deserunt aliquip cillum. Consequat do mollit enim cupidatat id sit et enim reprehenderit deserunt mollit esse do. Et consequat quis cillum sint labore.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 76,
+    "fields": {
+      "first_name": "Katina",
+      "last_name": "Townsend",
+      "gender": "M",
+      "contact_number": "(930) 467-2889",
+      "email": "katinatownsend@skybold.com",
+      "address": "617 Arlington Place, Wollochet, Rhode Island, 4281",
+      "about": "Sint sint nostrud Lorem magna et fugiat duis ullamco aliqua nisi occaecat. Adipisicing laborum fugiat laborum proident in minim aute. Ullamco velit enim dolor excepteur nisi eiusmod incididunt est elit occaecat ullamco commodo ullamco.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 77,
+    "fields": {
+      "first_name": "Francine",
+      "last_name": "Aguilar",
+      "gender": "M",
+      "contact_number": "(872) 548-3160",
+      "email": "francineaguilar@skybold.com",
+      "address": "929 Robert Street, Sunriver, Michigan, 9427",
+      "about": "Ut labore minim consectetur id dolore nulla aliquip et excepteur irure enim Lorem nulla occaecat. Laboris reprehenderit ad aute minim est culpa dolor consectetur id culpa. Commodo occaecat sint nostrud nulla sint labore. Lorem pariatur Lorem nostrud cillum sit Lorem minim. Nulla cupidatat eiusmod deserunt ea quis sit aute qui ipsum.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 78,
+    "fields": {
+      "first_name": "Margo",
+      "last_name": "Harding",
+      "gender": "M",
+      "contact_number": "(914) 522-3485",
+      "email": "margoharding@skybold.com",
+      "address": "723 Grand Street, Nettie, Minnesota, 4506",
+      "about": "Anim eiusmod esse culpa dolor in ea do adipisicing. Anim nostrud ex occaecat aliquip veniam et. Cillum enim sit ullamco consectetur aute in pariatur pariatur enim. Officia sit aliqua excepteur excepteur cupidatat deserunt voluptate ullamco deserunt sunt laboris irure pariatur tempor. Culpa occaecat aliqua elit sunt exercitation. Nisi sunt incididunt cupidatat pariatur occaecat cillum commodo reprehenderit reprehenderit quis dolore. Nisi reprehenderit deserunt culpa laborum qui amet eiusmod esse proident minim ad et proident.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 79,
+    "fields": {
+      "first_name": "Hattie",
+      "last_name": "Doyle",
+      "gender": "M",
+      "contact_number": "(815) 475-3352",
+      "email": "hattiedoyle@skybold.com",
+      "address": "110 Varet Street, Layhill, Massachusetts, 8161",
+      "about": "Mollit mollit consequat sunt ut aliquip do id laboris cillum ex sunt labore quis. Officia quis pariatur et nostrud elit amet. Excepteur labore qui voluptate magna duis enim est sunt id qui laborum labore. Fugiat veniam irure ad officia. Enim voluptate eiusmod aliquip enim est nisi anim mollit sunt deserunt occaecat ad ad enim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 80,
+    "fields": {
+      "first_name": "Veronica",
+      "last_name": "Wise",
+      "gender": "M",
+      "contact_number": "(947) 524-3445",
+      "email": "veronicawise@skybold.com",
+      "address": "136 Holly Street, Chesterfield, Guam, 9459",
+      "about": "Dolore cillum aute amet ex laboris labore in voluptate ut sit. Adipisicing eu sit cillum labore incididunt aliquip mollit proident elit. Sint adipisicing dolore reprehenderit et fugiat consequat enim mollit. Cillum laboris Lorem anim qui nisi cupidatat sunt anim.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 81,
+    "fields": {
+      "first_name": "Mcclain",
+      "last_name": "Hobbs",
+      "gender": "F",
+      "contact_number": "(880) 542-2748",
+      "email": "mcclainhobbs@skybold.com",
+      "address": "548 Reeve Place, Frystown, Connecticut, 9671",
+      "about": "Aliquip elit fugiat veniam consequat veniam laboris aliqua exercitation veniam proident et aliqua. Consectetur exercitation commodo et consequat enim cupidatat est enim officia in. In ullamco id sunt commodo Lorem.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 82,
+    "fields": {
+      "first_name": "Kelly",
+      "last_name": "Bush",
+      "gender": "M",
+      "contact_number": "(986) 529-3559",
+      "email": "kellybush@skybold.com",
+      "address": "545 Wogan Terrace, Vandiver, South Carolina, 5589",
+      "about": "Reprehenderit amet voluptate dolore dolore do sint. Dolore nulla aute consequat amet Lorem. Lorem ex ut dolore enim velit eu irure anim. Ex nulla dolore deserunt occaecat ea laboris non fugiat laboris nostrud et qui. Voluptate aliqua aute excepteur reprehenderit minim cillum aliquip.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 83,
+    "fields": {
+      "first_name": "Hines",
+      "last_name": "Haynes",
+      "gender": "M",
+      "contact_number": "(948) 585-2958",
+      "email": "hineshaynes@skybold.com",
+      "address": "720 Conduit Boulevard, Lisco, Virgin Islands, 1986",
+      "about": "Duis pariatur ullamco ea ea adipisicing ut nostrud. Proident mollit consectetur non tempor commodo ipsum exercitation minim excepteur consequat. Consequat mollit ex nisi reprehenderit excepteur enim amet excepteur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 84,
+    "fields": {
+      "first_name": "Calhoun",
+      "last_name": "Fleming",
+      "gender": "M",
+      "contact_number": "(851) 471-3223",
+      "email": "calhounfleming@skybold.com",
+      "address": "584 President Street, Odessa, Iowa, 1843",
+      "about": "Dolore exercitation consequat laborum est nisi Lorem enim incididunt duis qui in eiusmod. Velit occaecat sint cupidatat qui duis ipsum velit ut ea elit pariatur. Ex dolore qui duis proident ut irure duis. Elit exercitation Lorem laborum est est Lorem mollit esse.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 85,
+    "fields": {
+      "first_name": "Dawson",
+      "last_name": "Strickland",
+      "gender": "F",
+      "contact_number": "(833) 437-3776",
+      "email": "dawsonstrickland@skybold.com",
+      "address": "393 Fair Street, Hegins, Ohio, 5886",
+      "about": "Velit sunt ut officia proident ut nostrud ut. Dolore labore adipisicing in esse nisi proident ea ex anim duis incididunt id elit officia. Nulla fugiat quis veniam nisi enim ad ullamco aute reprehenderit reprehenderit incididunt quis eu. Deserunt consequat cillum id nulla aute veniam do ea ullamco. Cupidatat adipisicing elit adipisicing sit sunt sit mollit occaecat non nostrud.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 86,
+    "fields": {
+      "first_name": "Hatfield",
+      "last_name": "Macdonald",
+      "gender": "F",
+      "contact_number": "(964) 417-2217",
+      "email": "hatfieldmacdonald@skybold.com",
+      "address": "903 Jewel Street, Whitmer, Delaware, 9729",
+      "about": "Irure magna cillum eu eiusmod. Voluptate laborum amet ullamco quis laborum sit nulla. Consequat cillum reprehenderit elit veniam eu non minim esse. Aliqua duis nisi ad anim labore dolor magna laboris laboris cupidatat in anim. Elit veniam velit aliqua anim excepteur ex ipsum consequat do ullamco anim veniam.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 87,
+    "fields": {
+      "first_name": "Cruz",
+      "last_name": "Myers",
+      "gender": "M",
+      "contact_number": "(815) 500-3185",
+      "email": "cruzmyers@skybold.com",
+      "address": "815 Evans Street, Bangor, Georgia, 5056",
+      "about": "Magna proident nisi culpa quis veniam veniam do irure minim laboris aliqua qui proident non. Deserunt est consequat enim eiusmod voluptate. Amet consequat elit nulla adipisicing dolor laboris pariatur est eiusmod consectetur magna incididunt eiusmod Lorem. Labore laborum consectetur laboris quis adipisicing laboris quis. Id aliqua cillum excepteur laboris sint cillum veniam minim id velit labore. Et minim duis aliqua sit. Tempor nisi quis velit commodo elit fugiat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 88,
+    "fields": {
+      "first_name": "Frances",
+      "last_name": "Pickett",
+      "gender": "M",
+      "contact_number": "(927) 483-2754",
+      "email": "francespickett@skybold.com",
+      "address": "584 Ross Street, Hannasville, Texas, 4784",
+      "about": "Minim pariatur dolor mollit ullamco nisi exercitation cupidatat ea quis ad cillum qui. Anim aliqua ut adipisicing irure est dolore laboris do voluptate eu. Anim velit excepteur laboris in excepteur laborum consequat cupidatat elit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 89,
+    "fields": {
+      "first_name": "Winters",
+      "last_name": "Harris",
+      "gender": "F",
+      "contact_number": "(870) 520-2978",
+      "email": "wintersharris@skybold.com",
+      "address": "643 Hazel Court, Umapine, Federated States Of Micronesia, 8717",
+      "about": "Et sint sit excepteur nisi sunt do enim Lorem ut ad. Ullamco deserunt et duis duis. Amet qui culpa amet Lorem sint reprehenderit tempor magna incididunt culpa et. Ut sint veniam in irure adipisicing tempor amet amet consequat qui anim laboris. Irure voluptate ipsum sint reprehenderit quis sint adipisicing Lorem minim irure ea incididunt. Eu qui nulla nostrud fugiat ullamco voluptate deserunt tempor fugiat incididunt consequat.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 90,
+    "fields": {
+      "first_name": "Juarez",
+      "last_name": "Michael",
+      "gender": "M",
+      "contact_number": "(816) 430-2765",
+      "email": "juarezmichael@skybold.com",
+      "address": "940 Tompkins Avenue, Russellville, New York, 8637",
+      "about": "Officia elit esse amet mollit est qui nulla in et eiusmod. Lorem esse consequat eiusmod Lorem Lorem dolor eiusmod magna ullamco veniam fugiat. Consequat ullamco anim adipisicing consequat sunt id Lorem eiusmod commodo Lorem excepteur commodo.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 91,
+    "fields": {
+      "first_name": "Lancaster",
+      "last_name": "Barnes",
+      "gender": "F",
+      "contact_number": "(840) 506-3400",
+      "email": "lancasterbarnes@skybold.com",
+      "address": "118 Horace Court, Flintville, Colorado, 1518",
+      "about": "Quis laboris esse ullamco esse ea ea adipisicing mollit sunt esse. Voluptate anim velit do officia irure nisi deserunt. Labore sit culpa ex dolore dolore magna ad amet ullamco amet cupidatat incididunt nisi ex. Eu dolore proident exercitation est anim ullamco mollit aliquip. Veniam aute consectetur laboris reprehenderit aliquip.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 92,
+    "fields": {
+      "first_name": "Williams",
+      "last_name": "Case",
+      "gender": "M",
+      "contact_number": "(865) 530-2984",
+      "email": "williamscase@skybold.com",
+      "address": "147 Bridge Street, Selma, North Carolina, 2184",
+      "about": "Excepteur quis nostrud laborum occaecat irure exercitation sit. Nostrud quis elit est deserunt officia excepteur anim pariatur tempor enim ea dolore fugiat. Nostrud consectetur consectetur cupidatat excepteur velit nostrud. Aliqua duis laboris dolore Lorem. Ex consequat pariatur sunt sunt.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 93,
+    "fields": {
+      "first_name": "Maxwell",
+      "last_name": "Hurst",
+      "gender": "M",
+      "contact_number": "(969) 475-2854",
+      "email": "maxwellhurst@skybold.com",
+      "address": "758 Lincoln Avenue, Jugtown, Alabama, 3712",
+      "about": "Qui ea eiusmod est dolore esse incididunt consectetur. Aliquip sint ullamco proident anim laboris eiusmod et ad commodo sint aliqua minim fugiat cupidatat. Minim do anim Lorem commodo esse qui amet aute sunt et deserunt in eu. Cupidatat aliquip quis sint consequat adipisicing elit. Nostrud ullamco labore laboris eiusmod nisi ex sint. Eu nisi consequat ipsum irure velit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 94,
+    "fields": {
+      "first_name": "Dickson",
+      "last_name": "Diaz",
+      "gender": "M",
+      "contact_number": "(883) 456-2601",
+      "email": "dicksondiaz@skybold.com",
+      "address": "648 Bergen Place, Zortman, Nebraska, 2875",
+      "about": "Non quis officia proident voluptate aliquip pariatur exercitation. Id officia irure aliquip fugiat officia ut ipsum do est sunt proident. Reprehenderit aliqua aliquip eu reprehenderit ut adipisicing. Aliqua exercitation consequat velit adipisicing. Nostrud quis Lorem sint pariatur mollit in occaecat. Voluptate laboris cillum elit ex exercitation eiusmod aliqua qui anim quis tempor. Esse duis ad quis est et cupidatat aliquip labore dolore dolor culpa.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 95,
+    "fields": {
+      "first_name": "Baird",
+      "last_name": "Mcdaniel",
+      "gender": "M",
+      "contact_number": "(873) 463-3614",
+      "email": "bairdmcdaniel@skybold.com",
+      "address": "914 Battery Avenue, Newry, Louisiana, 8866",
+      "about": "Eiusmod aliqua mollit esse officia irure cupidatat laborum non in eiusmod commodo quis sint. Aliquip ut eiusmod nulla enim aliquip. Id id sit labore ad elit ea deserunt velit dolor consequat elit ad magna. Nulla nostrud reprehenderit aliquip amet. Anim nisi mollit pariatur ad ex aliqua commodo magna labore do irure cillum ea reprehenderit. Dolore cillum proident aute exercitation duis sit mollit consequat dolore duis incididunt commodo occaecat labore.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 96,
+    "fields": {
+      "first_name": "Leticia",
+      "last_name": "Dickson",
+      "gender": "M",
+      "contact_number": "(845) 505-2831",
+      "email": "leticiadickson@skybold.com",
+      "address": "310 Debevoise Street, Vernon, Alaska, 4192",
+      "about": "Do ad nostrud ad mollit exercitation consequat cupidatat do ipsum. Pariatur duis voluptate incididunt Lorem pariatur voluptate duis qui ad Lorem eu. Aute dolore laborum quis esse commodo mollit eiusmod nulla consequat ipsum. Duis nulla id ullamco ut velit sint incididunt magna incididunt id pariatur consectetur.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 97,
+    "fields": {
+      "first_name": "Janet",
+      "last_name": "Ramsey",
+      "gender": "M",
+      "contact_number": "(807) 444-2003",
+      "email": "janetramsey@skybold.com",
+      "address": "804 Karweg Place, Islandia, Washington, 7137",
+      "about": "Nostrud occaecat nulla consectetur aliqua elit anim. Mollit anim deserunt dolor fugiat. Eu ut officia ex excepteur. Nulla minim pariatur eiusmod quis qui ipsum ipsum non enim nisi officia et exercitation. Mollit culpa sit reprehenderit anim reprehenderit non eu deserunt ad ea magna tempor aute. Officia deserunt veniam proident sint dolor culpa exercitation. Ipsum nulla exercitation irure in qui do anim fugiat ea duis sint ipsum ipsum.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 98,
+    "fields": {
+      "first_name": "Doyle",
+      "last_name": "Raymond",
+      "gender": "M",
+      "contact_number": "(803) 492-2345",
+      "email": "doyleraymond@skybold.com",
+      "address": "904 Glen Street, Alamo, Palau, 2691",
+      "about": "Enim est commodo velit duis eu minim quis ullamco minim. Ullamco quis amet culpa occaecat mollit adipisicing aliqua. Esse nulla Lorem fugiat consequat deserunt culpa quis aliqua est labore dolor do ullamco duis. Magna amet cillum ipsum labore ipsum ut. Sit mollit laborum minim dolor.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 99,
+    "fields": {
+      "first_name": "Shauna",
+      "last_name": "Morin",
+      "gender": "M",
+      "contact_number": "(997) 588-3793",
+      "email": "shaunamorin@skybold.com",
+      "address": "614 Emerald Street, Lookingglass, Marshall Islands, 3134",
+      "about": "Veniam Lorem aliqua dolor veniam eiusmod sit do consequat reprehenderit veniam sint. Ad aliquip ullamco Lorem consequat minim sint enim. Do labore fugiat ullamco consequat consectetur eu minim ullamco Lorem in sunt veniam ipsum nisi. Magna qui nulla adipisicing eiusmod culpa sit pariatur commodo eu eiusmod reprehenderit ipsum elit.\r\n"
+    }
+  },
+  {
+    "model": "nurses.nurse",
+    "pk": 100,
+    "fields": {
+      "first_name": "Evangelina",
+      "last_name": "Weaver",
+      "gender": "M",
+      "contact_number": "(823) 459-2236",
+      "email": "evangelinaweaver@skybold.com",
+      "address": "219 Chester Court, Lemoyne, Wisconsin, 8674",
+      "about": "Duis et duis enim sint aliquip reprehenderit elit ullamco. Qui nisi anim sint culpa anim reprehenderit in ex ea. Commodo do tempor laboris magna aliquip cupidatat nostrud.\r\n"
+    }
+  }
 ]

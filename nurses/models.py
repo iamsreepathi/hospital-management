@@ -1,13 +1,17 @@
 from django.db import models
 from patients.models import Patient
 
+GENDER = (("M", "Male"), ("F", "Female"))
+
 
 # Create your models here.
 class Nurse(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+    gender = models.CharField(max_length=1, choices=GENDER, default="M")
     contact_number = models.CharField(max_length=15)
-    email = models.EmailField(max_length=100)
+    email = models.EmailField(max_length=100, unique=True)
+    address = models.CharField(255)
     about = models.TextField()
 
     class Meta:
